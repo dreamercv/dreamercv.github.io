@@ -6,7 +6,7 @@
   <link href="/Bingevan/atom.xml" rel="self"/>
   
   <link href="http://github.com/Bingevan/"/>
-  <updated>2019-03-14T12:59:52.673Z</updated>
+  <updated>2019-03-14T14:17:25.311Z</updated>
   <id>http://github.com/Bingevan/</id>
   
   <author>
@@ -21,65 +21,26 @@
     <link href="http://github.com/Bingevan/2019/03/14/hexo%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>http://github.com/Bingevan/2019/03/14/hexo基本使用/</id>
     <published>2019-03-14T11:26:33.000Z</published>
-    <updated>2019-03-14T12:59:52.673Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="创建新的文章"><a href="#创建新的文章" class="headerlink" title="创建新的文章"></a>创建新的文章</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n 文章的名字</span><br></pre></td></tr></table></figure><h3 id="服务器的开启"><a href="#服务器的开启" class="headerlink" title="服务器的开启"></a>服务器的开启</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clear</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><h3 id="服务器的关闭"><a href="#服务器的关闭" class="headerlink" title="服务器的关闭"></a>服务器的关闭</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ctrl + c</span><br></pre></td></tr></table></figure><h3 id="修改完章连接的样式"><a href="#修改完章连接的样式" class="headerlink" title="修改完章连接的样式"></a>修改完章连接的样式</h3><ul><li><p>打开文件：..\themes\source\css_common\components\post\post.styl</p></li><li><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//输入代码</span><br><span class="line"><span class="selector-class">.post-body</span> <span class="selector-tag">p</span> <span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#345</span>;</span><br><span class="line">  <span class="attribute">border-bottom</span>: none;</span><br><span class="line">  &amp;:hover&#123;</span><br><span class="line">    <span class="selector-tag">color</span>: <span class="selector-tag">red</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h3 id="修改文章底部带-号的标签"><a href="#修改文章底部带-号的标签" class="headerlink" title="修改文章底部带#号的标签"></a>修改文章底部带#号的标签</h3><p>如：<img src="C:\Users\Binge.van\AppData\Local\Temp\1552563623734.png" alt="1552563623734"></p><ul><li><p>打开文件 ：..\themes\next\layout_macro\post.swig</p></li><li><p>修改代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;footer class=&quot;post-footer&quot;&gt;</span><br><span class="line">      &#123;% if post.tags and post.tags.length and not is_index %&#125;</span><br><span class="line">        &lt;div class=&quot;post-tags&quot;&gt;</span><br><span class="line">          &#123;% for tag in post.tags %&#125;</span><br><span class="line">            &lt;a href=&quot;&#123;&#123; url_for(tag.path) &#125;&#125;&quot; rel=&quot;tag&quot;&gt;&lt;i class=&quot;fa fa-google&quot;&gt;&lt;/i&gt; &#123;&#123; tag.name &#125;&#125;&lt;/a&gt;</span><br><span class="line">          &#123;% endfor %&#125;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      ...</span><br></pre></td></tr></table></figure><p>修改后的样式：</p><p><img src="C:\Users\Binge.van\AppData\Local\Temp\1552564181758.png" alt="1552564181758"></p></li></ul><h3 id="添加Valine评论功能"><a href="#添加Valine评论功能" class="headerlink" title="添加Valine评论功能"></a>添加Valine评论功能</h3><h3 id="增加搜索功能"><a href="#增加搜索功能" class="headerlink" title="增加搜索功能"></a>增加搜索功能</h3><ul><li><p>打开主题、站点的配置文件</p></li><li><p>打开官网，找到第三方服务集成，找到搜索服务选择搜索样式：</p><p><a href="http://theme-next.iissnan.com/third-party-services.html#local-search" target="_blank" rel="noopener">http://theme-next.iissnan.com/third-party-services.html#local-search</a></p></li><li><p>在git输入<code>npm install hexo-generator-searchdb --save</code></p></li><li><p>编辑主题配置文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Local search</span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure></li><li><p>添加站点配置文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure></li></ul><p>效果如图：</p><p><img src="C:\Users\Binge.van\AppData\Local\Temp\1552565069091.png" alt="1552565069091"></p><h3 id="添加不蒜子统计功能"><a href="#添加不蒜子统计功能" class="headerlink" title="添加不蒜子统计功能"></a>添加不蒜子统计功能</h3><ul><li><p>打开主题的配置文件</p></li><li><p>打开官网，找到第三方服务集成，找到统计服务经行修改</p><p><a href="http://theme-next.iissnan.com/third-party-services.html#analytics-busuanzi" target="_blank" rel="noopener">http://theme-next.iissnan.com/third-party-services.html#analytics-busuanzi</a></p></li></ul><h3 id="增加分享功能"><a href="#增加分享功能" class="headerlink" title="增加分享功能"></a>增加分享功能</h3><ul><li><p>打开主题的配置文件</p></li><li><p>找到baidushare修改代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">baidushare:</span><br><span class="line">  type: button</span><br><span class="line">  baidushare: true</span><br></pre></td></tr></table></figure></li></ul><h3 id="隐藏底部的强力驱动"><a href="#隐藏底部的强力驱动" class="headerlink" title="隐藏底部的强力驱动"></a>隐藏底部的强力驱动</h3><ul><li><p>注释掉代码段</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--&#123;% <span class="keyword">if</span> theme.footer.powered.enable %&#125;</span><br><span class="line">  &lt;div class="powered-by"&gt;&#123;#</span><br><span class="line">  #&#125;&#123;&#123; __('footer.powered', next_url('https://hexo.io', 'Hexo', &#123;class: 'theme-link'&#125;)) &#125;&#125;&#123;#</span><br><span class="line">  #&#125;&#123;% if theme.footer.powered.version %&#125; v&#123;&#123; hexo_env('version') &#125;&#125;&#123;% endif %&#125;&#123;#</span><br><span class="line"> #&#125;&lt;/div&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> theme.footer.powered.enable and theme.footer.theme.enable %&#125;</span><br><span class="line">  &lt;span <span class="class"><span class="keyword">class</span></span>=<span class="string">"post-meta-divider"</span>&gt;|&lt;/span&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> theme.footer.theme.enable %&#125;</span><br><span class="line">  &lt;div class="theme-info"&gt;&#123;#</span><br><span class="line">  #&#125;&#123;&#123; __('footer.theme') &#125;&#125; – &#123;&#123; next_url('https://theme-next.org', 'NexT.' + theme.scheme, &#123;class: 'theme-link'&#125;) &#125;&#125;&#123;#</span><br><span class="line">  #&#125;&#123;% if theme.footer.theme.version %&#125; v&#123;&#123; version &#125;&#125;&#123;% endif %&#125;&#123;#</span><br><span class="line">#&#125;&lt;/div&gt;</span><br><span class="line">&#123;% endif %&#125;--&gt;</span><br></pre></td></tr></table></figure><h3 id="实现字数统计与阅读时长功能"><a href="#实现字数统计与阅读时长功能" class="headerlink" title="实现字数统计与阅读时长功能"></a>实现字数统计与阅读时长功能</h3></li></ul>]]></content>
+    <updated>2019-03-14T14:17:25.311Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;创建新的文章&quot;&gt;&lt;a href=&quot;#创建新的文章&quot; class=&quot;headerlink&quot; title=&quot;创建新的文章&quot;&gt;&lt;/a&gt;创建新的文章&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gu
+        
+        
+          
+        
       
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>排序</title>
-    <link href="http://github.com/Bingevan/2019/03/12/%E6%8E%92%E5%BA%8F/"/>
-    <id>http://github.com/Bingevan/2019/03/12/排序/</id>
-    <published>2019-03-12T04:35:44.000Z</published>
-    <updated>2019-03-12T10:58:10.390Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id><a href="#" class="headerlink" title="/*/"></a>/<strong><strong><strong><strong><strong><strong>*</strong></strong></strong></strong></strong></strong>/</h1><p>##匿名对象：</p><p>​    就是没有名字的对象<br>        Student s = new Student();<br>        s.show();<br>        换成<br>        new Student().show();<br><a id="more"></a><br>应用场景：<br>    A:调用方法，仅仅只调用此一次的时候，调用多次的时候不适合<br>        好处：匿名对向调完就是垃圾，可以被回收提高效率<br>    B:匿名对象可以作为实际参数传递<br>        Student s1 = new Student();<br>        StudentDemo sd = new StudentDemo();<br>        sd.method(s1);    //sd.method(new Student())<br>        //new StudentDemo().method(new Student());</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;/*/&quot;&gt;&lt;/a&gt;/&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;*&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;/&lt;/h1&gt;&lt;p&gt;##匿名对象：&lt;/p&gt;
-&lt;p&gt;​    就是没有名字的对象&lt;br&gt;        Student s = new Student();&lt;br&gt;        s.show();&lt;br&gt;        换成&lt;br&gt;        new Student().show();&lt;br&gt;
-    
-    </summary>
-    
-      <category term="前端" scheme="http://github.com/Bingevan/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="工具" scheme="http://github.com/Bingevan/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
       <category term="导航" scheme="http://github.com/Bingevan/tags/%E5%AF%BC%E8%88%AA/"/>
     
       <category term="分享" scheme="http://github.com/Bingevan/tags/%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://github.com/Bingevan/2019/03/11/hello-world/"/>
-    <id>http://github.com/Bingevan/2019/03/11/hello-world/</id>
-    <published>2019-03-11T10:19:58.589Z</published>
-    <updated>2019-03-11T10:19:58.589Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
