@@ -6,7 +6,7 @@
   <link href="/Bingevan/atom.xml" rel="self"/>
   
   <link href="http://github.com/Bingevan/"/>
-  <updated>2019-03-17T08:32:23.123Z</updated>
+  <updated>2019-05-15T11:58:02.319Z</updated>
   <id>http://github.com/Bingevan/</id>
   
   <author>
@@ -17,23 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://github.com/Bingevan/2019/03/17/A%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://github.com/Bingevan/2019/03/17/A机器学习总结/集成学习/</id>
-    <published>2019-03-17T08:32:23.123Z</published>
-    <updated>2019-03-17T08:32:23.123Z</updated>
+    <title>MobileNetV2</title>
+    <link href="http://github.com/Bingevan/2019/05/10/MobileNetV2/"/>
+    <id>http://github.com/Bingevan/2019/05/10/MobileNetV2/</id>
+    <published>2019-05-10T06:10:18.000Z</published>
+    <updated>2019-05-15T11:58:02.319Z</updated>
     
     <summary type="html">
     
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
     </summary>
+    
+      <category term="计算机视觉" scheme="http://github.com/Bingevan/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MobileNetV1</title>
+    <link href="http://github.com/Bingevan/2019/05/10/MobileNetV1/"/>
+    <id>http://github.com/Bingevan/2019/05/10/MobileNetV1/</id>
+    <published>2019-05-10T06:10:18.000Z</published>
+    <updated>2019-05-15T11:51:15.565Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="计算机视觉" scheme="http://github.com/Bingevan/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://github.com/Bingevan/2019/03/17/A%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
-    <id>http://github.com/Bingevan/2019/03/17/A机器学习总结/数据清洗/</id>
+    <link href="http://github.com/Bingevan/2019/03/17/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
+    <id>http://github.com/Bingevan/2019/03/17/数据清洗/</id>
     <published>2019-03-17T08:12:40.000Z</published>
     <updated>2019-03-17T08:31:16.156Z</updated>
     
@@ -51,27 +73,9 @@
   </entry>
   
   <entry>
-    <title>快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC%20(3)/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (3)/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T12:24:56.602Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>改进快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/01%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/01快速排序/</id>
+    <link href="http://github.com/Bingevan/2019/03/17/01%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
+    <id>http://github.com/Bingevan/2019/03/17/01快速排序/</id>
     <published>2019-03-17T02:00:51.000Z</published>
     <updated>2019-03-18T12:26:56.541Z</updated>
     
@@ -87,81 +91,9 @@
   </entry>
   
   <entry>
-    <title>堆排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/02%E5%A0%86%E6%8E%92%E5%BA%8F/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/02堆排序/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T13:06:44.620Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (2)/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T12:24:56.602Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/Fcaffe/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC%20(4)/"/>
-    <id>http://github.com/Bingevan/2019/03/17/Fcaffe/新建文本文档 - 副本 (4)/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-26T07:53:18.934Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC%20(6)/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (6)/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T12:24:56.602Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>深度学习基础</title>
-    <link href="http://github.com/Bingevan/2019/03/17/B%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://github.com/Bingevan/2019/03/17/B深度学习总结/深度学习/</id>
+    <link href="http://github.com/Bingevan/2019/03/17/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://github.com/Bingevan/2019/03/17/深度学习/</id>
     <published>2019-03-17T02:00:51.000Z</published>
     <updated>2019-03-18T11:43:23.621Z</updated>
     
@@ -177,101 +109,11 @@
   </entry>
   
   <entry>
-    <title>快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC%20(7)/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (7)/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T12:24:56.602Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC%20(8)/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (8)/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T12:24:56.602Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T12:24:56.602Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC%20(5)/"/>
-    <id>http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (5)/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T12:24:56.602Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Faster-Rcnn原理</title>
-    <link href="http://github.com/Bingevan/2019/03/16/D%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/Faste-Rcnn/"/>
-    <id>http://github.com/Bingevan/2019/03/16/D计算机视觉/Faste-Rcnn/</id>
-    <published>2019-03-16T06:10:18.000Z</published>
-    <updated>2019-03-17T08:39:03.821Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="计算机视觉" scheme="http://github.com/Bingevan/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>CBAM</title>
-    <link href="http://github.com/Bingevan/2019/03/16/C%E8%AE%BA%E6%96%87/CBAM%E7%BD%91%E7%BB%9C/"/>
-    <id>http://github.com/Bingevan/2019/03/16/C论文/CBAM网络/</id>
+    <link href="http://github.com/Bingevan/2019/03/16/CBAM%E7%BD%91%E7%BB%9C/"/>
+    <id>http://github.com/Bingevan/2019/03/16/CBAM网络/</id>
     <published>2019-03-16T06:10:18.000Z</published>
-    <updated>2019-03-17T07:51:05.506Z</updated>
+    <updated>2019-05-15T12:10:01.580Z</updated>
     
     <summary type="html">
     
@@ -284,7 +126,7 @@
     
     </summary>
     
-      <category term="每日论文" scheme="http://github.com/Bingevan/categories/%E6%AF%8F%E6%97%A5%E8%AE%BA%E6%96%87/"/>
+      <category term="CNN" scheme="http://github.com/Bingevan/categories/CNN/"/>
     
     
   </entry>
@@ -294,7 +136,7 @@
     <link href="http://github.com/Bingevan/2019/03/14/hexo%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>http://github.com/Bingevan/2019/03/14/hexo基本使用/</id>
     <published>2019-03-14T11:26:33.000Z</published>
-    <updated>2019-03-14T14:31:34.424Z</updated>
+    <updated>2019-05-15T12:04:51.516Z</updated>
     
     <summary type="html">
     

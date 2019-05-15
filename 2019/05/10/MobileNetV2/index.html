@@ -106,20 +106,30 @@
 
 
   <meta property="og:type" content="article">
-<meta property="og:title" content="快速排序">
-<meta property="og:url" content="http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (7)/index.html">
+<meta property="og:title" content="MobileNetV2">
+<meta property="og:url" content="http://github.com/Bingevan/2019/05/10/MobileNetV2/index.html">
 <meta property="og:site_name" content="Binge.van">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-18T12:24:56.602Z">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/RkIzM6GV5SuL.jpg?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/et2Gh7Y523Nl.png?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/X5gc3djrzNhl.jpg?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/nD31Q6AfattO.jpg?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/Mob6IaRJAtM0.jpg?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/oOEeP7HLOn5y.jpg?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/TGvkanC1XI2s.jpg?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/n9QdrThrmLNQ.png?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/uXYvseSqFTXC.jpg?imageslim">
+<meta property="og:updated_time" content="2019-05-15T11:58:02.319Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="快速排序">
+<meta name="twitter:title" content="MobileNetV2">
+<meta name="twitter:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/RkIzM6GV5SuL.jpg?imageslim">
 
 
 
 
 
 
-  <link rel="canonical" href="http://github.com/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (7)/">
+  <link rel="canonical" href="http://github.com/Bingevan/2019/05/10/MobileNetV2/">
 
 
 
@@ -129,7 +139,7 @@
   };
 </script>
 
-  <title>快速排序 | Binge.van</title>
+  <title>MobileNetV2 | Binge.van</title>
   
 
 
@@ -358,7 +368,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://github.com/Bingevan/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (7)/">
+    <link itemprop="mainEntityOfPage" href="http://github.com/Bingevan/Bingevan/2019/05/10/MobileNetV2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="范斌">
@@ -375,7 +385,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">快速排序
+          <h1 class="post-title" itemprop="name headline">MobileNetV2
 
               
             
@@ -401,7 +411,7 @@
                 
               
 
-              <time title="创建时间：2019-03-17 10:00:51" itemprop="dateCreated datePublished" datetime="2019-03-17T10:00:51+08:00">2019-03-17</time>
+              <time title="创建时间：2019-05-10 14:10:18" itemprop="dateCreated datePublished" datetime="2019-05-10T14:10:18+08:00">2019-05-10</time>
             
 
             
@@ -418,7 +428,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-03-18 20:24:56" itemprop="dateModified" datetime="2019-03-18T20:24:56+08:00">2019-03-18</time>
+                <time title="修改时间：2019-05-15 19:58:02" itemprop="dateModified" datetime="2019-05-15T19:58:02+08:00">2019-05-15</time>
               
             
           </span>
@@ -435,7 +445,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/Bingevan/categories/数据结构/" itemprop="url" rel="index"><span itemprop="name">数据结构</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/Bingevan/categories/计算机视觉/" itemprop="url" rel="index"><span itemprop="name">计算机视觉</span></a></span>
 
                 
                 
@@ -480,6 +490,61 @@
         <meta name="referrer" content="no-referrer"> 
 
 <a id="more"></a> 
+<h2 id="MobileNetV2"><a href="#MobileNetV2" class="headerlink" title="MobileNetV2"></a>MobileNetV2</h2><blockquote>
+<ul>
+<li>《Inverted Residuals and Linear Bottlenecks Mobile Networks for Classification, Detection and Segmentation 》</li>
+<li>The paper address：<a href="https://128.84.21.199/abs/1801.04381" target="_blank" rel="noopener">https://128.84.21.199/abs/1801.04381</a>  </li>
+<li>The coding address：<a href="https://github.com/miraclewkf/MobileNetV2-PyTorch">https://github.com/miraclewkf/MobileNetV2-PyTorch</a> </li>
+</ul>
+</blockquote>
+<h3 id="WWH（What-amp-Why-amp-How）"><a href="#WWH（What-amp-Why-amp-How）" class="headerlink" title="WWH（What&amp;Why&amp;How）"></a>WWH（What&amp;Why&amp;How）</h3><p>​    MobileNetV2是对MobileNetV1的改进，同样式轻量级的神经网络。实现了分类/目标检测/语义分割对目标任务，将MobileNetV2作为SSD的基础网络设计目标检测模型SSDLite。可以使参数降低一个数量级，但是mPA无明显变化。</p>
+<p>​    MobileNet-V1 最大的特点就是采用depth-wise separable convolution来减少运算量以及参数量，而在网络结构上，没有采用shortcut的方式。 ResNet及DenseNet等一系列采用shortcut的网络的成功，表明了shortcut是个非常好的东西，作者希望引入shortcut到MobileNet中。但是将residual block运用到depth-wise separable convolution，会碰到如下两个问题： </p>
+<ul>
+<li>DWConv layer 提取特征限制于输入特征维度，若采用residual block，1x1 PW conv操作后会先将输入特征图压缩(一般压缩率为0.25)，再经行DW conv后提取的特征或更少。MobileNetV2是先经过1x1 的PW conv操作将特征图扩张（本文扩大6倍），这也就可以不受输入通道的限制，可以提取更多的特征。</li>
+<li>深度可分离卷积的PW conv相对于是对上一层DWconv的压缩，PWconv后跟随的是ReLU，根据ReLU的性质，输入特征若为负数，经过激活层输入的特征全是0，本来特征已经经过压缩，这会进一步损失特征值；若输入特征是正数，经过激活层输出特征是还原始的输入值。根据这一特点改变激活函数用Linear bottlenecks 代替。</li>
+</ul>
+<h3 id="Innovation-Points"><a href="#Innovation-Points" class="headerlink" title="Innovation Points"></a>Innovation Points</h3><ul>
+<li>Inverted residuals</li>
+<li>Linear Bottlenecks</li>
+</ul>
+<h4 id="Inverted-residuals"><a href="#Inverted-residuals" class="headerlink" title="Inverted residuals"></a>Inverted residuals</h4><p>​    Inverted residuals，通常的residuals block是先经过一个1x1的Conv layer，把feature map的通道数“压”下来，再经过3x3 Conv layer，最后经过一个1x1 的Conv layer，将feature map 通道数再“扩张”回去。即先“压缩”，最后“扩张”回去。 而 inverted residuals就是 先“扩张”，最后“压缩”。如下图所示。</p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/RkIzM6GV5SuL.jpg?imageslim" alt="mark"></p>
+<p>​    inverted residuals 可以认为是 residual block 的拓展。在 0&lt;t&lt;1，其实就是标准的残差模块。论文中 t 大部分为 6，呈现梭子的外形，而传统残差设计是沙漏形状。 </p>
+<h4 id="Linear-Bottlenecks"><a href="#Linear-Bottlenecks" class="headerlink" title="Linear Bottlenecks"></a>Linear Bottlenecks</h4><p>​    为了避免ReLU对特征的破坏，在residual block  sum之前的PW conv后的激活层该成Linear Bottlenecks。在MobileNet V1中除了引入depthwise separable convolution代替传统的卷积，还做了一个实验是用width multiplier参数来做模型通道的缩减，相当于给模型“瘦身”，这样特征信息就能更集中在缩减后的通道中，但是如果此时加上一个非线性激活层，比如ReLU，就会有较大的信息丢失，因此为了减少信息丢失，就有了文中的linear bottleneck，意思就是bottleneck的输出不接非线性激活层，所以是linear，原因是：</p>
+<ul>
+<li>对于ReLU层输出的非零值而言，ReLU层起到的就是一个线性变换的作用，这个从ReLU的曲线就能看出来。 </li>
+<li>ReLU层可以保留input manifold的信息，但是只有当input manifold是输入空间的一个低维子空间时才有效。 </li>
+</ul>
+<p>​    作者经过实验证明：当把原始输入维度增加到15或30后再作为ReLU的输入，输出恢复到原始维度后基本不会丢失太多的输入信息；相比之下如果原始输入维度只增加到2或3后再作为ReLU的输入，输出恢复到原始维度后信息丢失较多。因此在MobileNet V2中，执行降维的卷积层后面不会接类似ReLU这样的非线性激活层，也就是linear bottleneck的含义。 </p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/et2Gh7Y523Nl.png?imageslim" alt="mark"></p>
+<h3 id="比较"><a href="#比较" class="headerlink" title="比较"></a>比较</h3><h4 id="MobileNetV1和MobileNetV2的区别："><a href="#MobileNetV1和MobileNetV2的区别：" class="headerlink" title="MobileNetV1和MobileNetV2的区别："></a>MobileNetV1和MobileNetV2的区别：</h4><p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/X5gc3djrzNhl.jpg?imageslim" alt="mark"></p>
+<p><strong>1、相同点：</strong> </p>
+<p>​    都采用 Depth-wise (DW) 卷积搭配 Point-wise (PW) 卷积的方式来提特征。这两个操作合起来也被称为 Depth-wise Separable Convolution，之前在 Xception 中被广泛使用。这么做的好处是理论上可以成倍的减少卷积层的时间复杂度和空间复杂度。标准卷积的计算复杂度近似为 DW + PW 组合卷积的 K^2倍。 </p>
+<p><strong>2、不同点：（Linear Bottleneck）</strong> </p>
+<ul>
+<li>V2 在 DW 卷积之前新加了一个 PW 卷积。这么做的原因，是因为 DW 卷积由于本身的计算特性决定它自己没有改变通道数的能力，上一层给它多少通道，它就只能输出多少通道。所以如果上一层给的通道数本身很少的话，DW 也只能很委屈的在低维空间提特征，因此效果不够好。现在 V2 为了改善这个问题，给每个 DW 之前都配备了一个 PW，专门用来升维，定义升维系数6 ，这样不管输入通道数C_in  是多是少，经过第一个 PW 升维之后，DW 都是在相对的更高维进行着辛勤工作的。</li>
+<li>V2 去掉了第二个 PW 的激活函数。论文作者称其为 Linear Bottleneck。这么做的原因，是因为作者认为激活函数在高维空间能够有效的增加非线性，而在低维空间时则会破坏特征，不如线性的效果好。由于第二个 PW 的主要功能就是降维，因此按照上面的理论，降维之后就不宜再使用 ReLU6 了。</li>
+</ul>
+<p>精度对比如下图。</p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/nD31Q6AfattO.jpg?imageslim" alt="mark"></p>
+<h4 id="ResNet和MobileNet-V2的对比"><a href="#ResNet和MobileNet-V2的对比" class="headerlink" title="ResNet和MobileNet-V2的对比"></a>ResNet和MobileNet-V2的对比</h4><p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/Mob6IaRJAtM0.jpg?imageslim" alt="mark"></p>
+<p>1、相同点：</p>
+<p>（1）MobileNet V2 借鉴 ResNet，都采用了  的模式。</p>
+<p>（2）MobileNet V2 借鉴 ResNet，同样使用 Shortcut 将输出与输入相加（未在上式画出）</p>
+<p>2、不同点：（Inverted Residual Block）</p>
+<ul>
+<li>ResNet 使用 标准卷积 提特征，MobileNet 始终使用 DW卷积 提特征。</li>
+<li>ResNet 先降维 (0.25倍)、卷积、再升维，而 MobileNet V2 则是 先升维 (6倍)、卷积、再降维。直观的形象上来看，ResNet 的微结构是沙漏形，而 MobileNet V2 则是纺锤形，刚好相反。因此论文作者将 MobileNet V2 的结构称为 Inverted Residual Block。这么做也是因为使用DW卷积而作的适配，希望特征提取能够在高维进行。</li>
+</ul>
+<p>精度对比图。</p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/oOEeP7HLOn5y.jpg?imageslim" alt="mark"></p>
+<h3 id="网络结构"><a href="#网络结构" class="headerlink" title="网络结构"></a>网络结构</h3><p>​    论文提出的 MobileNetV2 模型结构容易理解，基本单元 bottleneck 就是 Inverted residuals 模块，所用到的 tricks 比如 Dwise，就是 Depthwise Separable Convolutions，即各通道分别卷积。表 3 所示的分类网络结构输入图像分辨率 224x224，输出是全卷积而非 softmax，k 就是识别目标的类别数目。</p>
+<p>​    MobileNetV2 的网络结构中，第 6 行 stride=2，会导致下面通道分辨率变成14x14，从表格看，这个一处应该有误。 </p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/TGvkanC1XI2s.jpg?imageslim" alt="mark"></p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/n9QdrThrmLNQ.png?imageslim" alt="mark"></p>
+<p>​    特别的，针对stride=1 和stride=2，在block上有稍微不同，主要是为了与shortcut的维度匹配，因此，stride=2时，不采用shortcut。 具体如下图：   </p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/uXYvseSqFTXC.jpg?imageslim" alt="mark"></p>
+
       
     </div>
 
@@ -563,8 +628,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/Bingevan/2019/03/17/E数据结构与算法/新建文本文档 - 副本 (8)/" rel="next" title="快速排序">
-                <i class="fa fa-chevron-left"></i> 快速排序
+              <a href="/Bingevan/2019/05/10/MobileNetV1/" rel="next" title="MobileNetV1">
+                <i class="fa fa-chevron-left"></i> MobileNetV1
               </a>
             
           </div>
@@ -572,10 +637,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/Bingevan/2019/03/17/B深度学习总结/深度学习/" rel="prev" title="深度学习基础">
-                深度学习基础 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -619,8 +680,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -637,7 +707,7 @@
                 
                   <a href="/Bingevan/archives">
                 
-                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -752,6 +822,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#MobileNetV2"><span class="nav-number">1.</span> <span class="nav-text">MobileNetV2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#WWH（What-amp-Why-amp-How）"><span class="nav-number">1.1.</span> <span class="nav-text">WWH（What&amp;Why&amp;How）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Innovation-Points"><span class="nav-number">1.2.</span> <span class="nav-text">Innovation Points</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Inverted-residuals"><span class="nav-number">1.2.1.</span> <span class="nav-text">Inverted residuals</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Linear-Bottlenecks"><span class="nav-number">1.2.2.</span> <span class="nav-text">Linear Bottlenecks</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#比较"><span class="nav-number">1.3.</span> <span class="nav-text">比较</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#MobileNetV1和MobileNetV2的区别："><span class="nav-number">1.3.1.</span> <span class="nav-text">MobileNetV1和MobileNetV2的区别：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ResNet和MobileNet-V2的对比"><span class="nav-number">1.3.2.</span> <span class="nav-text">ResNet和MobileNet-V2的对比</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网络结构"><span class="nav-number">1.4.</span> <span class="nav-text">网络结构</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       

@@ -113,14 +113,14 @@
 <meta property="og:site_name" content="Binge.van">
 <meta property="og:description" content="创建新的文章1hexo n 文章的名字 服务器的开启123hexo clearhexo ghexo s 服务器的关闭1ctrl + c 新建分类页与标签页 分类页 1hexo n page categories  标签页 1hexo n page tags   修改完章连接的样式 打开文件：..\themes\source\css_common\components\post\post.styl">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://github.com/Bingevan//github.com/Bingevan/2019/03/14/hexo基本使用/blog/myblog/source/_posts/hexo基本使用/1552563623734.png">
-<meta property="og:image" content="http://github.com/Bingevan//github.com/Bingevan/2019/03/14/hexo基本使用/blog/myblog/source/_posts/hexo基本使用/1552564181758.png">
-<meta property="og:image" content="http://github.com/Bingevan//github.com/Bingevan/2019/03/14/hexo基本使用/blog/myblog/source/_posts/hexo基本使用/1552565069091.png">
-<meta property="og:updated_time" content="2019-03-14T14:31:34.424Z">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/Cdf5h9sLjlg1.png?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/RoORwgyLaTdx.png?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/qjoH2eDv5TVo.png?imageslim">
+<meta property="og:updated_time" content="2019-05-15T12:04:51.516Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo基本使用">
 <meta name="twitter:description" content="创建新的文章1hexo n 文章的名字 服务器的开启123hexo clearhexo ghexo s 服务器的关闭1ctrl + c 新建分类页与标签页 分类页 1hexo n page categories  标签页 1hexo n page tags   修改完章连接的样式 打开文件：..\themes\source\css_common\components\post\post.styl">
-<meta name="twitter:image" content="http://github.com/Bingevan//github.com/Bingevan/2019/03/14/hexo基本使用/blog/myblog/source/_posts/hexo基本使用/1552563623734.png">
+<meta name="twitter:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/Cdf5h9sLjlg1.png?imageslim">
 
 
 
@@ -409,12 +409,24 @@
                 
               
 
-              <time title="创建时间：2019-03-14 19:26:33 / 修改时间：22:31:34" itemprop="dateCreated datePublished" datetime="2019-03-14T19:26:33+08:00">2019-03-14</time>
+              <time title="创建时间：2019-03-14 19:26:33" itemprop="dateCreated datePublished" datetime="2019-03-14T19:26:33+08:00">2019-03-14</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-15 20:04:51" itemprop="dateModified" datetime="2019-05-15T20:04:51+08:00">2019-05-15</time>
               
             
           </span>
@@ -491,14 +503,14 @@
 </li>
 </ul>
 <h3 id="修改文章底部带-号的标签"><a href="#修改文章底部带-号的标签" class="headerlink" title="修改文章底部带#号的标签"></a>修改文章底部带#号的标签</h3><p>如：</p>
-<p><img src="/Bingevan//github.com/Bingevan/2019/03/14/hexo基本使用/blog\myblog\source\_posts\hexo基本使用\1552563623734.png" alt="修改前"></p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/Cdf5h9sLjlg1.png?imageslim" alt="mark"></p>
 <ul>
 <li><p>打开文件 ：..\themes\next\layout_macro\post.swig</p>
 </li>
 <li><p>修改代码</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;footer class=&quot;post-footer&quot;&gt;</span><br><span class="line">      &#123;% if post.tags and post.tags.length and not is_index %&#125;</span><br><span class="line">        &lt;div class=&quot;post-tags&quot;&gt;</span><br><span class="line">          &#123;% for tag in post.tags %&#125;</span><br><span class="line">            &lt;a href=&quot;&#123;&#123; url_for(tag.path) &#125;&#125;&quot; rel=&quot;tag&quot;&gt;&lt;i class=&quot;fa fa-google&quot;&gt;&lt;/i&gt; &#123;&#123; tag.name &#125;&#125;&lt;/a&gt;</span><br><span class="line">          &#123;% endfor %&#125;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &#123;% endif %&#125;</span><br><span class="line">      ...</span><br></pre></td></tr></table></figure>
 <p>修改后的样式：</p>
-<p><img src="/Bingevan//github.com/Bingevan/2019/03/14/hexo基本使用/blog\myblog\source\_posts\hexo基本使用\1552564181758.png" alt="修改后"></p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/RoORwgyLaTdx.png?imageslim" alt="mark"></p>
 </li>
 </ul>
 <h3 id="添加Valine评论功能"><a href="#添加Valine评论功能" class="headerlink" title="添加Valine评论功能"></a>添加Valine评论功能</h3><h3 id="增加搜索功能"><a href="#增加搜索功能" class="headerlink" title="增加搜索功能"></a>增加搜索功能</h3><ul>
@@ -517,7 +529,7 @@
 </li>
 </ul>
 <p>效果如图：</p>
-<p><img src="/Bingevan//github.com/Bingevan/2019/03/14/hexo基本使用/blog\myblog\source\_posts\hexo基本使用\1552565069091.png" alt="搜索"></p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/qjoH2eDv5TVo.png?imageslim" alt="mark"></p>
 <h3 id="添加不蒜子统计功能"><a href="#添加不蒜子统计功能" class="headerlink" title="添加不蒜子统计功能"></a>添加不蒜子统计功能</h3><ul>
 <li><p>打开主题的配置文件</p>
 </li>
@@ -635,7 +647,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/Bingevan/2019/03/16/C论文/CBAM网络/" rel="prev" title="CBAM">
+              <a href="/Bingevan/2019/03/16/CBAM网络/" rel="prev" title="CBAM">
                 CBAM <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -708,7 +720,7 @@
                 
                   <a href="/Bingevan/archives">
                 
-                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
