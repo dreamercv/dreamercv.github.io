@@ -26,6 +26,15 @@
       </categories>
   </entry>
   <entry>
+    <title></title>
+    <url>%2FBingevan%2F2019%2F03%2F17%2FA%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%2F%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%2F</url>
+    <content type="text"><![CDATA[数据清洗预处理工具 关系型数据库或者Python 元数据与数据的特征查看 对数据有直观的了解，位置后的数据处理做准备 缺省值清洗 确定缺省值的范围 去除不需要的字段 填充缺省值内容（重要 ） 重新获取数据]]></content>
+      <categories>
+        <category>面试</category>
+        <category>机器学习</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[改进快速排序]]></title>
     <url>%2FBingevan%2F2019%2F03%2F17%2F01%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%2F</url>
     <content type="text"><![CDATA[##partition算法 （荷兰国旗问题）给定一个数组arr，和一个数num，请把小于num的数放在数组的左边，等于num的数放在数组的中间，大于num的数放在数组的右边。要求额外空间复杂度O(1)，时间复杂度O(N) 思想： 大于num的数放在数组的左边，小于num的数放在数组的右边，设当前指针为cur，小于区域的最后一个数指针为less，大于区域的第一个数为more。 解题： 要比较的数x=num，cur+1； 要比较的数x&lt;num,x与小于区域的下一个数交换，并且cur+1、less+1 要比较的数x&gt;num,x与大于区域的前一个数交换，并且more+1 代码： 123456789101112131415161718192021public static int[] pattena(int[] arr,int L,int R,int num)&#123; int less = L-1; int more = R+1; int cur = L; while (cur&lt;more)&#123; if(arr[cur]&lt;num)&#123; awap(arr,++less,cur++); &#125;else if(arr[cur]&gt;num)&#123; awap(arr,cur,--more); &#125;else &#123; cur++; &#125; &#125; //return new int[]&#123;less+1,more-1&#125;; return arr; &#125;public static void awap(int[] arr,int i ,int j)&#123; int temp = arr[i]; arr[i] = arr[j]; arr[j] = temp;&#125; 基于partition改进后的快速排序 随机快速排序的细节和复杂度分析可以用荷兰国旗问题来改进快速排序时间复杂度O(N*logN)，额外空间复杂度O(logN) 解题： 将数组的最后一个数最为num 小于num的放在左边，—&gt; 递归 大于num的放在右边，—&gt; 递归 代码实现： 12345678910111213141516171819202122232425262728293031public static int[] quickSort(int arr[],int L, int R) &#123; if(L&lt;R) &#123; int num = arr[arr.length - 1]; int[] idnex = partition(arr, L, R,num); quickSort(arr, L, idnex[0]-1); quickSort(arr, idnex[1]+1, R); &#125; return arr; &#125;public static int[] partition(int[] arr,int L,int R,int num)&#123; int less = L-1; int more = R; int cur = L; while (cur &lt; more) &#123; if (arr[cur]&lt;num) &#123; exchange(arr,++less,cur++); &#125; else if (arr[cur]&gt;num) &#123; exchange(arr,--more, cur); &#125;else &#123; cur++; &#125; &#125; exchange(arr, more, R); return new int[]&#123;less + 1, more &#125;;&#125;public static void exchange(int[] arr,int i, int j) &#123; int temp = arr[i]; arr[i] = arr[j]; arr[j] = temp;&#125;]]></content>
