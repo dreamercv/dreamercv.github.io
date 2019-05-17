@@ -6,7 +6,7 @@
   <link href="/dreamercv/atom.xml" rel="self"/>
   
   <link href="http://github.com/dreamercv/"/>
-  <updated>2019-05-15T11:51:15.565Z</updated>
+  <updated>2019-05-15T11:58:02.319Z</updated>
   <id>http://github.com/dreamercv/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>MobileNetV1</title>
-    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV1/"/>
-    <id>http://github.com/dreamercv/2019/05/10/MobileNetV1/</id>
+    <title>MobileNetV2</title>
+    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV2/"/>
+    <id>http://github.com/dreamercv/2019/05/10/MobileNetV2/</id>
     <published>2019-05-10T06:10:18.000Z</published>
-    <updated>2019-05-15T11:51:15.565Z</updated>
+    <updated>2019-05-15T11:58:02.319Z</updated>
     
     <summary type="html">
     
@@ -35,11 +35,11 @@
   </entry>
   
   <entry>
-    <title>MobileNetV2</title>
-    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV2/"/>
-    <id>http://github.com/dreamercv/2019/05/10/MobileNetV2/</id>
+    <title>MobileNetV1</title>
+    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV1/"/>
+    <id>http://github.com/dreamercv/2019/05/10/MobileNetV1/</id>
     <published>2019-05-10T06:10:18.000Z</published>
-    <updated>2019-05-15T11:58:02.319Z</updated>
+    <updated>2019-05-15T11:51:15.565Z</updated>
     
     <summary type="html">
     
