@@ -6,7 +6,7 @@
   <link href="/dreamercv/atom.xml" rel="self"/>
   
   <link href="http://github.com/dreamercv/"/>
-  <updated>2019-05-15T11:58:02.319Z</updated>
+  <updated>2019-05-17T14:48:20.231Z</updated>
   <id>http://github.com/dreamercv/</id>
   
   <author>
@@ -17,11 +17,115 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>MobileNetV2</title>
-    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV2/"/>
-    <id>http://github.com/dreamercv/2019/05/10/MobileNetV2/</id>
-    <published>2019-05-10T06:10:18.000Z</published>
-    <updated>2019-05-15T11:58:02.319Z</updated>
+    <title>InceptionV4</title>
+    <link href="http://github.com/dreamercv/2019/05/17/InceptionV4/"/>
+    <id>http://github.com/dreamercv/2019/05/17/InceptionV4/</id>
+    <published>2019-05-17T13:23:53.000Z</published>
+    <updated>2019-05-17T14:48:20.231Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;论文：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning, 3.08% test error  》&lt;/li&gt;
+&lt;li&gt;The paper address：&lt;a href=&quot;http://arxiv.org/abs/1602.07261&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://arxiv.org/abs/1602.07261&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
+    
+    
+      <category term="Inception" scheme="http://github.com/dreamercv/tags/Inception/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>InceptionV2、V3</title>
+    <link href="http://github.com/dreamercv/2019/05/17/InceptionV2-V3/"/>
+    <id>http://github.com/dreamercv/2019/05/17/InceptionV2-V3/</id>
+    <published>2019-05-17T13:02:01.000Z</published>
+    <updated>2019-05-17T13:25:56.799Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;论文：V2《Batch Normalization: Accelerating Deep Network Training by Reducing Internal    》&lt;/p&gt;
+&lt;p&gt;地址：&lt;a href=&quot;http://arxiv.org/abs/1502.03167&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://arxiv.org/abs/1502.03167&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt; 论文：v3《Rethinking the Inception Architecture for Computer Vision, 3.5% test error  》&lt;/p&gt;
+&lt;p&gt;地址：&lt;a href=&quot;http://arxiv.org/abs/1512.00567&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://arxiv.org/abs/1512.00567&lt;/a&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
+    
+    
+      <category term="Inception" scheme="http://github.com/dreamercv/tags/Inception/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>InceptionV1</title>
+    <link href="http://github.com/dreamercv/2019/05/17/InceptionV1/"/>
+    <id>http://github.com/dreamercv/2019/05/17/InceptionV1/</id>
+    <published>2019-05-17T12:34:25.000Z</published>
+    <updated>2019-05-17T13:03:50.841Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;论文：《Going Deeper with Convolutions, 6.67% test error  》&lt;/p&gt;
+&lt;p&gt;地址：&lt;a href=&quot;http://arxiv.org/abs/1409.4842&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://arxiv.org/abs/1409.4842&lt;/a&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
+    
+    
+      <category term="Inception" scheme="http://github.com/dreamercv/tags/Inception/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HetConv</title>
+    <link href="http://github.com/dreamercv/2019/05/17/HetConv/"/>
+    <id>http://github.com/dreamercv/2019/05/17/HetConv/</id>
+    <published>2019-05-17T10:51:05.000Z</published>
+    <updated>2019-05-17T12:24:09.621Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&amp;lt;HetConv: Heterogeneous Kernel-Based Convolutions for Deep CNNs &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;论文:《 Heterogeneous Kernel-Based Convolutions for Deep CNNs 》&lt;/p&gt;
+&lt;p&gt;地址：&lt;a href=&quot;https://arxiv.org/abs/1903.04120&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/abs/1903.04120&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;源码：&lt;a href=&quot;https://github.com/sxpro/HetConvolution2d_pytorch&quot;&gt;https://github.com/sxpro/HetConvolution2d_pytorch&lt;/a&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
+    
+    
+      <category term="HetConv" scheme="http://github.com/dreamercv/tags/HetConv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iterrows对dataframe进行遍历</title>
+    <link href="http://github.com/dreamercv/2019/05/17/iterrows%E5%AF%B9dataframe%E8%BF%9B%E8%A1%8C%E9%81%8D%E5%8E%86/"/>
+    <id>http://github.com/dreamercv/2019/05/17/iterrows对dataframe进行遍历/</id>
+    <published>2019-05-17T08:55:45.000Z</published>
+    <updated>2019-05-17T09:55:43.850Z</updated>
     
     <summary type="html">
     
@@ -29,8 +133,123 @@
     
     </summary>
     
-      <category term="计算机视觉" scheme="http://github.com/dreamercv/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+      <category term="广东工业-物体检测" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
     
+      <category term="函数分析" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="python" scheme="http://github.com/dreamercv/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>图片归一化</title>
+    <link href="http://github.com/dreamercv/2019/05/17/%E5%9B%BE%E7%89%87%E5%BD%92%E4%B8%80%E5%8C%96/"/>
+    <id>http://github.com/dreamercv/2019/05/17/图片归一化/</id>
+    <published>2019-05-17T08:16:12.000Z</published>
+    <updated>2019-05-17T09:55:58.300Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="广东工业-物体检测" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
+    
+      <category term="函数分析" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="pytorch" scheme="http://github.com/dreamercv/tags/pytorch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>train_test_split</title>
+    <link href="http://github.com/dreamercv/2019/05/17/train-test-split/"/>
+    <id>http://github.com/dreamercv/2019/05/17/train-test-split/</id>
+    <published>2019-05-17T08:03:22.000Z</published>
+    <updated>2019-05-17T08:12:09.724Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="广东工业-物体检测" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
+    
+      <category term="函数分析" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="sklearn" scheme="http://github.com/dreamercv/tags/sklearn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据并行</title>
+    <link href="http://github.com/dreamercv/2019/05/17/%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C/"/>
+    <id>http://github.com/dreamercv/2019/05/17/数据并行/</id>
+    <published>2019-05-17T07:50:44.000Z</published>
+    <updated>2019-05-17T07:56:28.727Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="广东工业-物体检测" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
+    
+      <category term="函数分析" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="pytorch" scheme="http://github.com/dreamercv/tags/pytorch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os.path用法</title>
+    <link href="http://github.com/dreamercv/2019/05/17/os-path%E7%94%A8%E6%B3%95/"/>
+    <id>http://github.com/dreamercv/2019/05/17/os-path用法/</id>
+    <published>2019-05-17T07:12:26.000Z</published>
+    <updated>2019-05-17T07:26:49.728Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="广东工业-物体检测" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
+    
+      <category term="函数分析" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="pytorch" scheme="http://github.com/dreamercv/tags/pytorch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随机种子</title>
+    <link href="http://github.com/dreamercv/2019/05/17/%E4%B8%BB%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
+    <id>http://github.com/dreamercv/2019/05/17/主函数分析/</id>
+    <published>2019-05-17T06:49:06.000Z</published>
+    <updated>2019-05-17T07:02:35.848Z</updated>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;np.random.seed(&lt;span class=&quot;number&quot;&gt;666&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;torch.manual_seed(&lt;span class=&quot;number&quot;&gt;666&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;torch.cuda.manual_seed_all(&lt;span class=&quot;number&quot;&gt;666&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;random.seed(&lt;span class=&quot;number&quot;&gt;666&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="广东工业-物体检测" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
+    
+      <category term="函数分析" scheme="http://github.com/dreamercv/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="pytorch" scheme="http://github.com/dreamercv/tags/pytorch/"/>
     
   </entry>
   
@@ -39,7 +258,7 @@
     <link href="http://github.com/dreamercv/2019/05/10/MobileNetV1/"/>
     <id>http://github.com/dreamercv/2019/05/10/MobileNetV1/</id>
     <published>2019-05-10T06:10:18.000Z</published>
-    <updated>2019-05-15T11:51:15.565Z</updated>
+    <updated>2019-05-17T12:26:39.238Z</updated>
     
     <summary type="html">
     
@@ -47,17 +266,46 @@
     
     </summary>
     
-      <category term="计算机视觉" scheme="http://github.com/dreamercv/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
     
+    
+      <category term="MobileNet" scheme="http://github.com/dreamercv/tags/MobileNet/"/>
     
   </entry>
   
   <entry>
-    <title></title>
+    <title>MobileNetV2</title>
+    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV2/"/>
+    <id>http://github.com/dreamercv/2019/05/10/MobileNetV2/</id>
+    <published>2019-05-10T06:10:18.000Z</published>
+    <updated>2019-05-17T12:23:37.154Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;MobileNetV2&quot;&gt;&lt;a href=&quot;#MobileNetV2&quot; class=&quot;headerlink&quot; title=&quot;MobileNetV2&quot;&gt;&lt;/a&gt;MobileNetV2&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;《Inverted Residuals and Linear Bottlenecks Mobile Networks for Classification, Detection and Segmentation 》&lt;/li&gt;
+&lt;li&gt;The paper address：&lt;a href=&quot;https://128.84.21.199/abs/1801.04381&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://128.84.21.199/abs/1801.04381&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;The coding address：&lt;a href=&quot;https://github.com/miraclewkf/MobileNetV2-PyTorch&quot;&gt;https://github.com/miraclewkf/MobileNetV2-PyTorch&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
+    
+    
+      <category term="MobileNet" scheme="http://github.com/dreamercv/tags/MobileNet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据清洗</title>
     <link href="http://github.com/dreamercv/2019/03/17/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
     <id>http://github.com/dreamercv/2019/03/17/数据清洗/</id>
     <published>2019-03-17T08:12:40.000Z</published>
-    <updated>2019-03-17T08:31:16.156Z</updated>
+    <updated>2019-05-17T06:43:30.400Z</updated>
     
     <summary type="html">
     
@@ -68,44 +316,6 @@
       <category term="面试" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/"/>
     
       <category term="机器学习" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://github.com/dreamercv/2019/03/17/A%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
-    <id>http://github.com/dreamercv/2019/03/17/A机器学习总结/数据清洗/</id>
-    <published>2019-03-17T08:12:40.000Z</published>
-    <updated>2019-05-15T14:18:54.915Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="面试" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/"/>
-    
-      <category term="机器学习" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>改进快速排序</title>
-    <link href="http://github.com/dreamercv/2019/03/17/01%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
-    <id>http://github.com/dreamercv/2019/03/17/01快速排序/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T12:26:56.541Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://github.com/dreamercv/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
   </entry>
@@ -124,6 +334,24 @@
     </summary>
     
       <category term="面试" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>改进快速排序</title>
+    <link href="http://github.com/dreamercv/2019/03/17/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
+    <id>http://github.com/dreamercv/2019/03/17/快速排序/</id>
+    <published>2019-03-17T02:00:51.000Z</published>
+    <updated>2019-03-18T12:26:56.541Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="数据结构" scheme="http://github.com/dreamercv/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
   </entry>
@@ -156,7 +384,7 @@
     <link href="http://github.com/dreamercv/2019/03/14/hexo%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>http://github.com/dreamercv/2019/03/14/hexo基本使用/</id>
     <published>2019-03-14T11:26:33.000Z</published>
-    <updated>2019-05-15T12:04:51.516Z</updated>
+    <updated>2019-05-17T12:26:06.798Z</updated>
     
     <summary type="html">
     
@@ -173,9 +401,7 @@
       <category term="工具" scheme="http://github.com/dreamercv/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="导航" scheme="http://github.com/dreamercv/tags/%E5%AF%BC%E8%88%AA/"/>
-    
-      <category term="分享" scheme="http://github.com/dreamercv/tags/%E5%88%86%E4%BA%AB/"/>
+      <category term="Hexo" scheme="http://github.com/dreamercv/tags/Hexo/"/>
     
   </entry>
   

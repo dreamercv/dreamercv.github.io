@@ -105,10 +105,13 @@
 
 
 
-  <meta property="og:type" content="article">
+  <meta name="description" content="MobileNetV2  《Inverted Residuals and Linear Bottlenecks Mobile Networks for Classification, Detection and Segmentation 》 The paper address：https://128.84.21.199/abs/1801.04381   The coding address：htt">
+<meta name="keywords" content="MobileNet">
+<meta property="og:type" content="article">
 <meta property="og:title" content="MobileNetV2">
 <meta property="og:url" content="http://github.com/dreamercv/2019/05/10/MobileNetV2/index.html">
 <meta property="og:site_name" content="一个专注DL的小白">
+<meta property="og:description" content="MobileNetV2  《Inverted Residuals and Linear Bottlenecks Mobile Networks for Classification, Detection and Segmentation 》 The paper address：https://128.84.21.199/abs/1801.04381   The coding address：htt">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/RkIzM6GV5SuL.jpg?imageslim">
 <meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/et2Gh7Y523Nl.png?imageslim">
@@ -119,9 +122,10 @@
 <meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/TGvkanC1XI2s.jpg?imageslim">
 <meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/n9QdrThrmLNQ.png?imageslim">
 <meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/uXYvseSqFTXC.jpg?imageslim">
-<meta property="og:updated_time" content="2019-05-15T11:58:02.319Z">
+<meta property="og:updated_time" content="2019-05-17T12:23:37.154Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MobileNetV2">
+<meta name="twitter:description" content="MobileNetV2  《Inverted Residuals and Linear Bottlenecks Mobile Networks for Classification, Detection and Segmentation 》 The paper address：https://128.84.21.199/abs/1801.04381   The coding address：htt">
 <meta name="twitter:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190515/RkIzM6GV5SuL.jpg?imageslim">
 
 
@@ -428,7 +432,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-05-15 19:58:02" itemprop="dateModified" datetime="2019-05-15T19:58:02+08:00">2019-05-15</time>
+                <time title="修改时间：2019-05-17 20:23:37" itemprop="dateModified" datetime="2019-05-17T20:23:37+08:00">2019-05-17</time>
               
             
           </span>
@@ -445,7 +449,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv/categories/计算机视觉/" itemprop="url" rel="index"><span itemprop="name">计算机视觉</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv/categories/CNN/" itemprop="url" rel="index"><span itemprop="name">CNN</span></a></span>
 
                 
                 
@@ -487,16 +491,16 @@
       
 
       
-        <meta name="referrer" content="no-referrer"> 
-
-<a id="more"></a> 
-<h2 id="MobileNetV2"><a href="#MobileNetV2" class="headerlink" title="MobileNetV2"></a>MobileNetV2</h2><blockquote>
+        <h2 id="MobileNetV2"><a href="#MobileNetV2" class="headerlink" title="MobileNetV2"></a>MobileNetV2</h2><blockquote>
 <ul>
 <li>《Inverted Residuals and Linear Bottlenecks Mobile Networks for Classification, Detection and Segmentation 》</li>
 <li>The paper address：<a href="https://128.84.21.199/abs/1801.04381" target="_blank" rel="noopener">https://128.84.21.199/abs/1801.04381</a>  </li>
 <li>The coding address：<a href="https://github.com/miraclewkf/MobileNetV2-PyTorch">https://github.com/miraclewkf/MobileNetV2-PyTorch</a> </li>
 </ul>
 </blockquote>
+<meta name="referrer" content="no-referrer"> 
+
+<a id="more"></a> 
 <h3 id="WWH（What-amp-Why-amp-How）"><a href="#WWH（What-amp-Why-amp-How）" class="headerlink" title="WWH（What&amp;Why&amp;How）"></a>WWH（What&amp;Why&amp;How）</h3><p>​    MobileNetV2是对MobileNetV1的改进，同样式轻量级的神经网络。实现了分类/目标检测/语义分割对目标任务，将MobileNetV2作为SSD的基础网络设计目标检测模型SSDLite。可以使参数降低一个数量级，但是mPA无明显变化。</p>
 <p>​    MobileNet-V1 最大的特点就是采用depth-wise separable convolution来减少运算量以及参数量，而在网络结构上，没有采用shortcut的方式。 ResNet及DenseNet等一系列采用shortcut的网络的成功，表明了shortcut是个非常好的东西，作者希望引入shortcut到MobileNet中。但是将residual block运用到depth-wise separable convolution，会碰到如下两个问题： </p>
 <ul>
@@ -513,9 +517,10 @@
 <h4 id="Linear-Bottlenecks"><a href="#Linear-Bottlenecks" class="headerlink" title="Linear Bottlenecks"></a>Linear Bottlenecks</h4><p>​    为了避免ReLU对特征的破坏，在residual block  sum之前的PW conv后的激活层该成Linear Bottlenecks。在MobileNet V1中除了引入depthwise separable convolution代替传统的卷积，还做了一个实验是用width multiplier参数来做模型通道的缩减，相当于给模型“瘦身”，这样特征信息就能更集中在缩减后的通道中，但是如果此时加上一个非线性激活层，比如ReLU，就会有较大的信息丢失，因此为了减少信息丢失，就有了文中的linear bottleneck，意思就是bottleneck的输出不接非线性激活层，所以是linear，原因是：</p>
 <ul>
 <li>对于ReLU层输出的非零值而言，ReLU层起到的就是一个线性变换的作用，这个从ReLU的曲线就能看出来。 </li>
-<li>ReLU层可以保留input manifold的信息，但是只有当input manifold是输入空间的一个低维子空间时才有效。 </li>
+<li><p>ReLU层可以保留input manifold的信息，但是只有当input manifold是输入空间的一个低维子空间时才有效。 </p>
+<pre><code>作者经过实验证明：当把原始输入维度增加到15或30后再作为ReLU的输入，输出恢复到原始维度后基本不会丢失太多的输入信息；相比之下如果原始输入维度只增加到2或3后再作为ReLU的输入，输出恢复到原始维度后信息丢失较多。因此在MobileNet V2中，执行降维的卷积层后面不会接类似ReLU这样的非线性激活层，也就是linear bottleneck的含义。 
+</code></pre></li>
 </ul>
-<p>​    作者经过实验证明：当把原始输入维度增加到15或30后再作为ReLU的输入，输出恢复到原始维度后基本不会丢失太多的输入信息；相比之下如果原始输入维度只增加到2或3后再作为ReLU的输入，输出恢复到原始维度后信息丢失较多。因此在MobileNet V2中，执行降维的卷积层后面不会接类似ReLU这样的非线性激活层，也就是linear bottleneck的含义。 </p>
 <p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/et2Gh7Y523Nl.png?imageslim" alt="mark"></p>
 <h3 id="比较"><a href="#比较" class="headerlink" title="比较"></a>比较</h3><h4 id="MobileNetV1和MobileNetV2的区别："><a href="#MobileNetV1和MobileNetV2的区别：" class="headerlink" title="MobileNetV1和MobileNetV2的区别："></a>MobileNetV1和MobileNetV2的区别：</h4><p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190515/X5gc3djrzNhl.jpg?imageslim" alt="mark"></p>
 <p><strong>1、相同点：</strong> </p>
@@ -564,6 +569,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/dreamercv/tags/MobileNet/" rel="tag"><i class="fa fa-google"></i> MobileNet</a>
+          
+        </div>
       
 
       
@@ -628,8 +639,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/dreamercv/2019/05/10/MobileNetV1/" rel="next" title="MobileNetV1">
-                <i class="fa fa-chevron-left"></i> MobileNetV1
+              <a href="/dreamercv/2019/03/17/数据清洗/" rel="next" title="数据清洗">
+                <i class="fa fa-chevron-left"></i> 数据清洗
               </a>
             
           </div>
@@ -637,6 +648,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/dreamercv/2019/05/10/MobileNetV1/" rel="prev" title="MobileNetV1">
+                MobileNetV1 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -707,7 +722,7 @@
                 
                   <a href="/dreamercv/archives">
                 
-                    <span class="site-state-item-count">8</span>
+                    <span class="site-state-item-count">17</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -736,7 +751,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -757,7 +774,17 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
