@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Binge.van</title>
+  <title>一个专注DL的小白</title>
   
   
-  <link href="/Bingevan/atom.xml" rel="self"/>
+  <link href="/dreamercv/atom.xml" rel="self"/>
   
-  <link href="http://github.com/Bingevan/"/>
+  <link href="http://github.com/dreamercv/"/>
   <updated>2019-05-15T11:51:15.565Z</updated>
-  <id>http://github.com/Bingevan/</id>
+  <id>http://github.com/dreamercv/</id>
   
   <author>
     <name>范斌</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>MobileNetV1</title>
-    <link href="http://github.com/Bingevan/2019/05/10/MobileNetV1/"/>
-    <id>http://github.com/Bingevan/2019/05/10/MobileNetV1/</id>
+    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV1/"/>
+    <id>http://github.com/dreamercv/2019/05/10/MobileNetV1/</id>
     <published>2019-05-10T06:10:18.000Z</published>
     <updated>2019-05-15T11:51:15.565Z</updated>
     
@@ -29,15 +29,15 @@
     
     </summary>
     
-      <category term="计算机视觉" scheme="http://github.com/Bingevan/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+      <category term="计算机视觉" scheme="http://github.com/dreamercv/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
     
   </entry>
   
   <entry>
     <title>MobileNetV2</title>
-    <link href="http://github.com/Bingevan/2019/05/10/MobileNetV2/"/>
-    <id>http://github.com/Bingevan/2019/05/10/MobileNetV2/</id>
+    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV2/"/>
+    <id>http://github.com/dreamercv/2019/05/10/MobileNetV2/</id>
     <published>2019-05-10T06:10:18.000Z</published>
     <updated>2019-05-15T11:58:02.319Z</updated>
     
@@ -47,15 +47,15 @@
     
     </summary>
     
-      <category term="计算机视觉" scheme="http://github.com/Bingevan/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+      <category term="计算机视觉" scheme="http://github.com/dreamercv/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://github.com/Bingevan/2019/03/17/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
-    <id>http://github.com/Bingevan/2019/03/17/数据清洗/</id>
+    <link href="http://github.com/dreamercv/2019/03/17/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
+    <id>http://github.com/dreamercv/2019/03/17/数据清洗/</id>
     <published>2019-03-17T08:12:40.000Z</published>
     <updated>2019-03-17T08:31:16.156Z</updated>
     
@@ -65,17 +65,17 @@
     
     </summary>
     
-      <category term="面试" scheme="http://github.com/Bingevan/categories/%E9%9D%A2%E8%AF%95/"/>
+      <category term="面试" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/"/>
     
-      <category term="机器学习" scheme="http://github.com/Bingevan/categories/%E9%9D%A2%E8%AF%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://github.com/Bingevan/2019/03/17/A%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
-    <id>http://github.com/Bingevan/2019/03/17/A机器学习总结/数据清洗/</id>
+    <link href="http://github.com/dreamercv/2019/03/17/A%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
+    <id>http://github.com/dreamercv/2019/03/17/A机器学习总结/数据清洗/</id>
     <published>2019-03-17T08:12:40.000Z</published>
     <updated>2019-05-15T14:18:54.915Z</updated>
     
@@ -85,17 +85,17 @@
     
     </summary>
     
-      <category term="面试" scheme="http://github.com/Bingevan/categories/%E9%9D%A2%E8%AF%95/"/>
+      <category term="面试" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/"/>
     
-      <category term="机器学习" scheme="http://github.com/Bingevan/categories/%E9%9D%A2%E8%AF%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
   </entry>
   
   <entry>
     <title>改进快速排序</title>
-    <link href="http://github.com/Bingevan/2019/03/17/01%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
-    <id>http://github.com/Bingevan/2019/03/17/01快速排序/</id>
+    <link href="http://github.com/dreamercv/2019/03/17/01%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
+    <id>http://github.com/dreamercv/2019/03/17/01快速排序/</id>
     <published>2019-03-17T02:00:51.000Z</published>
     <updated>2019-03-18T12:26:56.541Z</updated>
     
@@ -105,15 +105,15 @@
     
     </summary>
     
-      <category term="数据结构" scheme="http://github.com/Bingevan/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <category term="数据结构" scheme="http://github.com/dreamercv/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
   </entry>
   
   <entry>
     <title>深度学习基础</title>
-    <link href="http://github.com/Bingevan/2019/03/17/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://github.com/Bingevan/2019/03/17/深度学习/</id>
+    <link href="http://github.com/dreamercv/2019/03/17/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://github.com/dreamercv/2019/03/17/深度学习/</id>
     <published>2019-03-17T02:00:51.000Z</published>
     <updated>2019-03-18T11:43:23.621Z</updated>
     
@@ -123,15 +123,15 @@
     
     </summary>
     
-      <category term="面试" scheme="http://github.com/Bingevan/categories/%E9%9D%A2%E8%AF%95/"/>
+      <category term="面试" scheme="http://github.com/dreamercv/categories/%E9%9D%A2%E8%AF%95/"/>
     
     
   </entry>
   
   <entry>
     <title>CBAM</title>
-    <link href="http://github.com/Bingevan/2019/03/16/CBAM%E7%BD%91%E7%BB%9C/"/>
-    <id>http://github.com/Bingevan/2019/03/16/CBAM网络/</id>
+    <link href="http://github.com/dreamercv/2019/03/16/CBAM%E7%BD%91%E7%BB%9C/"/>
+    <id>http://github.com/dreamercv/2019/03/16/CBAM网络/</id>
     <published>2019-03-16T06:10:18.000Z</published>
     <updated>2019-05-15T12:10:01.580Z</updated>
     
@@ -146,15 +146,15 @@
     
     </summary>
     
-      <category term="CNN" scheme="http://github.com/Bingevan/categories/CNN/"/>
+      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
     
     
   </entry>
   
   <entry>
     <title>hexo基本使用</title>
-    <link href="http://github.com/Bingevan/2019/03/14/hexo%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
-    <id>http://github.com/Bingevan/2019/03/14/hexo基本使用/</id>
+    <link href="http://github.com/dreamercv/2019/03/14/hexo%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
+    <id>http://github.com/dreamercv/2019/03/14/hexo基本使用/</id>
     <published>2019-03-14T11:26:33.000Z</published>
     <updated>2019-05-15T12:04:51.516Z</updated>
     
@@ -170,12 +170,12 @@
     
     </summary>
     
-      <category term="工具" scheme="http://github.com/Bingevan/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="http://github.com/dreamercv/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="导航" scheme="http://github.com/Bingevan/tags/%E5%AF%BC%E8%88%AA/"/>
+      <category term="导航" scheme="http://github.com/dreamercv/tags/%E5%AF%BC%E8%88%AA/"/>
     
-      <category term="分享" scheme="http://github.com/Bingevan/tags/%E5%88%86%E4%BA%AB/"/>
+      <category term="分享" scheme="http://github.com/dreamercv/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
