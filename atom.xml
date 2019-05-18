@@ -6,7 +6,7 @@
   <link href="/dreamercv.github.io/atom.xml" rel="self"/>
   
   <link href="https://dreamercv.github.io/dreamercv.github.io/"/>
-  <updated>2019-05-18T04:46:48.263Z</updated>
+  <updated>2019-05-18T15:10:47.416Z</updated>
   <id>https://dreamercv.github.io/dreamercv.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VGG</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/VGG/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/VGG/</id>
+    <published>2019-05-18T14:16:08.000Z</published>
+    <updated>2019-05-18T15:10:47.416Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;论文：《Very Deep Convolutional Networks for Large-Scale Image Recognition》 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
+    
+      <category term="Spatial Exploitation based CNNs" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/Spatial-Exploitation-based-CNNs/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/AlexNet/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/AlexNet/</id>
+    <published>2019-05-18T12:57:09.000Z</published>
+    <updated>2019-05-18T14:46:11.038Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;论文地址：&lt;a href=&quot;http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
+    
+      <category term="Spatial Exploitation based CNNs" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/Spatial-Exploitation-based-CNNs/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>DL中的Top</title>
@@ -391,26 +437,6 @@
   </entry>
   
   <entry>
-    <title>MobileNetV1</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/10/MobileNetV1/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/10/MobileNetV1/</id>
-    <published>2019-05-10T06:10:18.000Z</published>
-    <updated>2019-05-17T12:26:39.238Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
-    
-    
-      <category term="MobileNet" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/MobileNet/"/>
-    
-  </entry>
-  
-  <entry>
     <title>MobileNetV2</title>
     <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/10/MobileNetV2/"/>
     <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/10/MobileNetV2/</id>
@@ -438,11 +464,11 @@
   </entry>
   
   <entry>
-    <title>数据清洗</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/03/17/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/03/17/数据清洗/</id>
-    <published>2019-03-17T08:12:40.000Z</published>
-    <updated>2019-05-17T06:43:30.400Z</updated>
+    <title>MobileNetV1</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/10/MobileNetV1/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/10/MobileNetV1/</id>
+    <published>2019-05-10T06:10:18.000Z</published>
+    <updated>2019-05-17T12:26:39.238Z</updated>
     
     <summary type="html">
     
@@ -450,28 +476,10 @@
     
     </summary>
     
-      <category term="面试" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
-    
-      <category term="机器学习" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>深度学习基础</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/03/17/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/03/17/深度学习/</id>
-    <published>2019-03-17T02:00:51.000Z</published>
-    <updated>2019-03-18T11:43:23.621Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="面试" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
-    
+      <category term="MobileNet" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/MobileNet/"/>
     
   </entry>
   
