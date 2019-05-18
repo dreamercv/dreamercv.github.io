@@ -3,7 +3,7 @@
   <title>一个专注DL的小白</title>
   
   
-  <link href="/dreamercv/atom.xml" rel="self"/>
+  <link href="/myblog/atom.xml" rel="self"/>
   
   <link href="http://github.com/dreamercv/"/>
   <updated>2019-05-18T04:46:48.263Z</updated>
@@ -391,26 +391,6 @@
   </entry>
   
   <entry>
-    <title>MobileNetV1</title>
-    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV1/"/>
-    <id>http://github.com/dreamercv/2019/05/10/MobileNetV1/</id>
-    <published>2019-05-10T06:10:18.000Z</published>
-    <updated>2019-05-17T12:26:39.238Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
-    
-    
-      <category term="MobileNet" scheme="http://github.com/dreamercv/tags/MobileNet/"/>
-    
-  </entry>
-  
-  <entry>
     <title>MobileNetV2</title>
     <link href="http://github.com/dreamercv/2019/05/10/MobileNetV2/"/>
     <id>http://github.com/dreamercv/2019/05/10/MobileNetV2/</id>
@@ -427,6 +407,26 @@
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="http://github.com/dreamercv/categories/CNN/"/>
+    
+    
+      <category term="MobileNet" scheme="http://github.com/dreamercv/tags/MobileNet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MobileNetV1</title>
+    <link href="http://github.com/dreamercv/2019/05/10/MobileNetV1/"/>
+    <id>http://github.com/dreamercv/2019/05/10/MobileNetV1/</id>
+    <published>2019-05-10T06:10:18.000Z</published>
+    <updated>2019-05-17T12:26:39.238Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
     
     </summary>
     
