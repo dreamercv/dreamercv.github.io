@@ -105,22 +105,24 @@
 
 
 
-  <meta name="keywords" content="pytorch">
-<meta property="og:type" content="article">
-<meta property="og:title" content="数据并行">
-<meta property="og:url" content="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/数据并行/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="GroupConvolution">
+<meta property="og:url" content="https://dreamercv.github.io/dreamercv.github.io/2019/05/19/GroupConvolution/index.html">
 <meta property="og:site_name" content="一个专注DL的小白">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-17T07:56:28.727Z">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190519/AXawGiAxgumG.png?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190519/YCHBGxF3xpPR.png?imageslim">
+<meta property="og:updated_time" content="2019-05-19T13:45:03.287Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="数据并行">
+<meta name="twitter:title" content="GroupConvolution">
+<meta name="twitter:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190519/AXawGiAxgumG.png?imageslim">
 
 
 
 
 
 
-  <link rel="canonical" href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/数据并行/">
+  <link rel="canonical" href="https://dreamercv.github.io/dreamercv.github.io/2019/05/19/GroupConvolution/">
 
 
 
@@ -130,7 +132,7 @@
   };
 </script>
 
-  <title>数据并行 | 一个专注DL的小白</title>
+  <title>GroupConvolution | 一个专注DL的小白</title>
   
 
 
@@ -359,7 +361,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://dreamercv.github.io/dreamercv.github.io/dreamercv.github.io/2019/05/17/数据并行/">
+    <link itemprop="mainEntityOfPage" href="https://dreamercv.github.io/dreamercv.github.io/dreamercv.github.io/2019/05/19/GroupConvolution/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="范斌">
@@ -376,7 +378,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">数据并行
+          <h1 class="post-title" itemprop="name headline">GroupConvolution
 
               
             
@@ -402,7 +404,7 @@
                 
               
 
-              <time title="创建时间：2019-05-17 15:50:44 / 修改时间：15:56:28" itemprop="dateCreated datePublished" datetime="2019-05-17T15:50:44+08:00">2019-05-17</time>
+              <time title="创建时间：2019-05-19 21:14:28 / 修改时间：21:45:03" itemprop="dateCreated datePublished" datetime="2019-05-19T21:14:28+08:00">2019-05-19</time>
             
 
             
@@ -424,14 +426,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/广东工业-物体检测/" itemprop="url" rel="index"><span itemprop="name">广东工业-物体检测</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/广东工业-物体检测/函数分析/" itemprop="url" rel="index"><span itemprop="name">函数分析</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/CNN/" itemprop="url" rel="index"><span itemprop="name">CNN</span></a></span>
 
                 
                 
@@ -476,15 +471,12 @@
         <meta name="referrer" content="no-referrer"> 
 
 <a id="more"></a> 
-<p><code>mdoel = torch.nn.DataParallel(model)</code></p>
-<blockquote>
-<p>若设备有多个GPU可以使用，为了经可能充分的利用资源，可以将数据并行计算</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">model = Model(input_size, output_size)</span><br><span class="line"><span class="keyword">if</span> torch.cuda.device_count() &gt; <span class="number">1</span>:</span><br><span class="line">  print(<span class="string">"Let's use"</span>, torch.cuda.device_count(), <span class="string">"GPUs!"</span>)</span><br><span class="line">  <span class="comment"># dim = 0 [30, xxx] -&gt; [10, ...], [10, ...], [10, ...] on 3 GPUs</span></span><br><span class="line">  model = nn.DataParallel(model)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> torch.cuda.is_available():</span><br><span class="line">   model.cuda()</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>若设备就一个GPU直接调用cuda()函数</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">model = Model(input_size, output_size)</span><br><span class="line">model.cuda()</span><br></pre></td></tr></table></figure>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Group convolution 分组卷积，最早在AlexNet中出现，由于当时的硬件资源有限，训练AlexNet时卷积操作不能全部放在同一个GPU处理，因此作者把feature maps分给多个GPU分别进行处理，最后把多个GPU的结果进行融合。 </p>
+<h3 id="分组卷积"><a href="#分组卷积" class="headerlink" title="分组卷积"></a>分组卷积</h3><h4 id="标准卷积"><a href="#标准卷积" class="headerlink" title="标准卷积"></a>标准卷积</h4><p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190519/AXawGiAxgumG.png?imageslim" alt="mark"></p>
+<p>从图中可以看出标准卷积的参数量是<code>h_1*w_1*H*W*c_2</code></p>
+<h4 id="分组卷积-1"><a href="#分组卷积-1" class="headerlink" title="分组卷积"></a>分组卷积</h4><p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190519/YCHBGxF3xpPR.png?imageslim" alt="mark"></p>
+<p>如图所示输入特征图的参数：<code>H，W，c_1</code>，输出特征图的参数为<code>H，W，c_2</code>。</p>
+<p>将输入图片的维度分成<code>g</code>组，每组的维度是<code>c_1/g</code>，这样子卷积核的深度就是<code>c_1/g</code>，将每组卷积输出的特征图的维度是<code>c_2/g</code>，之后进行拼接，形成输入特征图的维度是<code>c_2</code>，那么总的参数是<code>h_1*w_1*c_1/g*H*W*c_2/g*g=h_1*w_1*c_1/g*H*W*c_2</code>，参数与标准的卷积相比减少了<code>1/g</code></p>
 
       
     </div>
@@ -505,12 +497,6 @@
     
 
     <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/dreamercv.github.io/tags/pytorch/" rel="tag"><i class="fa fa-google"></i> pytorch</a>
-          
-        </div>
       
 
       
@@ -575,8 +561,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/dreamercv.github.io/2019/05/17/os-path用法/" rel="next" title="os.path用法">
-                <i class="fa fa-chevron-left"></i> os.path用法
+              <a href="/dreamercv.github.io/2019/05/18/VGG/" rel="next" title="VGG">
+                <i class="fa fa-chevron-left"></i> VGG
               </a>
             
           </div>
@@ -585,8 +571,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/dreamercv.github.io/2019/05/17/train-test-split/" rel="prev" title="train_test_split">
-                train_test_split <i class="fa fa-chevron-right"></i>
+              <a href="/dreamercv.github.io/2019/05/19/Res2Net/" rel="prev" title="Res2Net">
+                Res2Net <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -631,8 +617,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -782,6 +777,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#引言"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分组卷积"><span class="nav-number">2.</span> <span class="nav-text">分组卷积</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#标准卷积"><span class="nav-number">2.1.</span> <span class="nav-text">标准卷积</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分组卷积-1"><span class="nav-number">2.2.</span> <span class="nav-text">分组卷积</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       

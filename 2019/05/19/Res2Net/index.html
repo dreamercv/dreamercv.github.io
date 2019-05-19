@@ -105,22 +105,27 @@
 
 
 
-  <meta name="keywords" content="pytorch">
+  <meta name="description" content="论文：《Res2Net: A New Multi-scale Backbone Architecture》 地址： https://arxiv.org/pdf/1904.01169.pdf  代码：https://github.com/4uiiurz1/pytorch-res2net">
 <meta property="og:type" content="article">
-<meta property="og:title" content="数据并行">
-<meta property="og:url" content="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/数据并行/index.html">
+<meta property="og:title" content="Res2Net">
+<meta property="og:url" content="https://dreamercv.github.io/dreamercv.github.io/2019/05/19/Res2Net/index.html">
 <meta property="og:site_name" content="一个专注DL的小白">
+<meta property="og:description" content="论文：《Res2Net: A New Multi-scale Backbone Architecture》 地址： https://arxiv.org/pdf/1904.01169.pdf  代码：https://github.com/4uiiurz1/pytorch-res2net">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-17T07:56:28.727Z">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190519/kOYTU2xuL8vo.png?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190519/b6CFM0jJgO7F.png?imageslim">
+<meta property="og:updated_time" content="2019-05-19T14:41:44.673Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="数据并行">
+<meta name="twitter:title" content="Res2Net">
+<meta name="twitter:description" content="论文：《Res2Net: A New Multi-scale Backbone Architecture》 地址： https://arxiv.org/pdf/1904.01169.pdf  代码：https://github.com/4uiiurz1/pytorch-res2net">
+<meta name="twitter:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190519/kOYTU2xuL8vo.png?imageslim">
 
 
 
 
 
 
-  <link rel="canonical" href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/数据并行/">
+  <link rel="canonical" href="https://dreamercv.github.io/dreamercv.github.io/2019/05/19/Res2Net/">
 
 
 
@@ -130,7 +135,7 @@
   };
 </script>
 
-  <title>数据并行 | 一个专注DL的小白</title>
+  <title>Res2Net | 一个专注DL的小白</title>
   
 
 
@@ -359,7 +364,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://dreamercv.github.io/dreamercv.github.io/dreamercv.github.io/2019/05/17/数据并行/">
+    <link itemprop="mainEntityOfPage" href="https://dreamercv.github.io/dreamercv.github.io/dreamercv.github.io/2019/05/19/Res2Net/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="范斌">
@@ -376,7 +381,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">数据并行
+          <h1 class="post-title" itemprop="name headline">Res2Net
 
               
             
@@ -402,7 +407,7 @@
                 
               
 
-              <time title="创建时间：2019-05-17 15:50:44 / 修改时间：15:56:28" itemprop="dateCreated datePublished" datetime="2019-05-17T15:50:44+08:00">2019-05-17</time>
+              <time title="创建时间：2019-05-19 21:51:40 / 修改时间：22:41:44" itemprop="dateCreated datePublished" datetime="2019-05-19T21:51:40+08:00">2019-05-19</time>
             
 
             
@@ -424,14 +429,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/广东工业-物体检测/" itemprop="url" rel="index"><span itemprop="name">广东工业-物体检测</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/广东工业-物体检测/函数分析/" itemprop="url" rel="index"><span itemprop="name">函数分析</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/CNN/" itemprop="url" rel="index"><span itemprop="name">CNN</span></a></span>
 
                 
                 
@@ -473,18 +471,22 @@
       
 
       
-        <meta name="referrer" content="no-referrer"> 
+        <blockquote>
+<p>论文：<strong>《Res2Net: A New Multi-scale Backbone Architecture》</strong></p>
+<p>地址： <a href="https://arxiv.org/pdf/1904.01169.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1904.01169.pdf</a> </p>
+<p>代码：<a href="https://github.com/4uiiurz1/pytorch-res2net" target="_blank" rel="noopener">https://github.com/4uiiurz1/pytorch-res2net</a> </p>
+</blockquote>
+<meta name="referrer" content="no-referrer"> 
 
 <a id="more"></a> 
-<p><code>mdoel = torch.nn.DataParallel(model)</code></p>
-<blockquote>
-<p>若设备有多个GPU可以使用，为了经可能充分的利用资源，可以将数据并行计算</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">model = Model(input_size, output_size)</span><br><span class="line"><span class="keyword">if</span> torch.cuda.device_count() &gt; <span class="number">1</span>:</span><br><span class="line">  print(<span class="string">"Let's use"</span>, torch.cuda.device_count(), <span class="string">"GPUs!"</span>)</span><br><span class="line">  <span class="comment"># dim = 0 [30, xxx] -&gt; [10, ...], [10, ...], [10, ...] on 3 GPUs</span></span><br><span class="line">  model = nn.DataParallel(model)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> torch.cuda.is_available():</span><br><span class="line">   model.cuda()</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>若设备就一个GPU直接调用cuda()函数</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">model = Model(input_size, output_size)</span><br><span class="line">model.cuda()</span><br></pre></td></tr></table></figure>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>在多个视觉任务中，如图像分类，目标检测，动作识别，语义分割等，设计一个好的多尺度特征是非常重要的。 </p>
+<p>因此，多尺度的特征在传统方法和深度学习里面都得到了广泛应用。通常我们需要采用一个大感受野的特征提取器来获得不同尺度的特征描述，而卷积神经网络通过一堆卷积层可以很自然的由粗到细多尺度的提取特征。如何设计更高效的网络结构是提升卷积神经网络性能的关键。</p>
+<p>作者提出了一种简单有效的多尺度提取方法。与现有的增强单层网络多尺度表达能力的 CNNs 方法不同，它是在更细的粒度上提升了多尺度表征能力。</p>
+<h3 id="Res2Net"><a href="#Res2Net" class="headerlink" title="Res2Net"></a>Res2Net</h3><p> <img src="http://prjlqbksp.bkt.clouddn.com/blog/20190519/kOYTU2xuL8vo.png?imageslim" alt="mark"></p>
+<p>已有的许多工作都是采用的上图（a）作为其 basic block，因此作者希望找到一种能保持计算量不增加，却有更强多尺度特征提取能力的结构来替代它。如上图（b）所示，作者采用了更小的卷积组来替代 bottleneck block 里面的 3x3 卷积。具体操作如下，首先将 1x1 卷积后的特征图均分为 s 个特征图子集。每个特征图子集的大小相同，但是通道数是输入特征图的 1/s。对每一个特征图子集 X_i，有一个对应的 3x3 卷积K_i(), 假设 K_i() 的输出是 y_i。接下来每个特征图子集 X_i 会加上 K_i-1() 的输出，然后一起输入进 K_i()。为了在增大 s 的值时减少参数量，作者省去了 X_1 的 3x3 网络。因此，输出 y_i 可以用如下公式表示：</p>
+<p> <img src="http://prjlqbksp.bkt.clouddn.com/blog/20190519/b6CFM0jJgO7F.png?imageslim" width="400" hegiht="30" align="center/"></p>
+<p>根据图（b），可以发现每一个 X_j(j&lt;=i) 下的 3x3 卷积可以利用之前所有的特性信息，它的输出会有比 X_j 更大的感受野。因此这样的组合可以使 Res2Net 的输出有更多样的感受野信息。为了更好的融合不同尺度的信息，作者将它们的输出拼接起来，然后再送入 1x1 卷积，如上图（b）所示。</p>
+<h3 id="结论"><a href="#结论" class="headerlink" title="结论"></a><strong>结论</strong></h3><p>Res2Net 是一种简洁有效的模块，探索了 CNN 在更细粒度级别的多尺度表达能力。它揭示了 CNN 网络里面除了深度，宽度等现有维度之外，还可以有新的维度“尺度”。Res2Net 模块可以很容易地融合进 SOTA 的方法。在 CIFAR10 和 ImageNet 上图像分类的结果表明，使用 Res2Net 模块的网络比 ResNet，ResNeXt，DLA 等网络效果更好。<strong>鉴于Res2Net已经在几个具有代表性的计算机视觉任务体现出了优越性，作者认为网络的多尺度表征能力是非常重要的。</strong></p>
 
       
     </div>
@@ -505,12 +507,6 @@
     
 
     <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/dreamercv.github.io/tags/pytorch/" rel="tag"><i class="fa fa-google"></i> pytorch</a>
-          
-        </div>
       
 
       
@@ -575,8 +571,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/dreamercv.github.io/2019/05/17/os-path用法/" rel="next" title="os.path用法">
-                <i class="fa fa-chevron-left"></i> os.path用法
+              <a href="/dreamercv.github.io/2019/05/19/GroupConvolution/" rel="next" title="GroupConvolution">
+                <i class="fa fa-chevron-left"></i> GroupConvolution
               </a>
             
           </div>
@@ -584,10 +580,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/dreamercv.github.io/2019/05/17/train-test-split/" rel="prev" title="train_test_split">
-                train_test_split <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -631,8 +623,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -782,6 +783,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#引言"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Res2Net"><span class="nav-number">2.</span> <span class="nav-text">Res2Net</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结论"><span class="nav-number">3.</span> <span class="nav-text">结论</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
