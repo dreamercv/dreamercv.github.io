@@ -6,7 +6,7 @@
   <link href="/dreamercv.github.io/atom.xml" rel="self"/>
   
   <link href="https://dreamercv.github.io/dreamercv.github.io/"/>
-  <updated>2019-05-19T14:41:44.673Z</updated>
+  <updated>2019-05-20T15:25:09.433Z</updated>
   <id>https://dreamercv.github.io/dreamercv.github.io/</id>
   
   <author>
@@ -15,6 +15,90 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二叉树概念</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/二叉树/</id>
+    <published>2019-05-20T13:21:57.000Z</published>
+    <updated>2019-05-20T15:25:09.433Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="面试" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="剑指offer" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/%E5%89%91%E6%8C%87offer/"/>
+    
+    
+      <category term="二叉树" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习一</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%80/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/机器学习一/</id>
+    <published>2019-05-20T11:20:33.000Z</published>
+    <updated>2019-05-20T11:21:10.906Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="面试" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="机器学习" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>深度学习一</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/CNN%E5%8D%B7%E7%A7%AF%E6%A0%B8%E6%98%AF3D%E5%A4%9A%E5%B1%82/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/CNN卷积核是3D多层/</id>
+    <published>2019-05-20T11:03:53.000Z</published>
+    <updated>2019-05-20T11:19:44.087Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="面试" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="深度学习" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>图像标注工具Labelme安装与使用</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E5%9B%BE%E5%83%8F%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7Labelme%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/图像标注工具Labelme安装与使用/</id>
+    <published>2019-05-20T06:55:36.000Z</published>
+    <updated>2019-05-20T08:20:42.663Z</updated>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
+    
+      <category term="图片标注" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%9B%BE%E7%89%87%E6%A0%87%E6%B3%A8/"/>
+    
+    
+      <category term="工具" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>Res2Net</title>
@@ -190,10 +274,10 @@
   
   <entry>
     <title>数据加载与处理</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-数据加载与处理/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/数据加载与处理/</id>
     <published>2019-05-18T02:06:08.000Z</published>
-    <updated>2019-05-18T02:19:30.834Z</updated>
+    <updated>2019-05-18T02:18:29.336Z</updated>
     
     <summary type="html">
     
@@ -216,10 +300,10 @@
   
   <entry>
     <title>数据加载与处理</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/数据加载与处理/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-数据加载与处理/</id>
     <published>2019-05-18T02:06:08.000Z</published>
-    <updated>2019-05-18T02:18:29.336Z</updated>
+    <updated>2019-05-18T02:19:30.834Z</updated>
     
     <summary type="html">
     
@@ -376,95 +460,6 @@
     <summary type="html">
     
       &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>train_test_split</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/train-test-split/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/train-test-split/</id>
-    <published>2019-05-17T08:03:22.000Z</published>
-    <updated>2019-05-17T08:12:09.724Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="sklearn" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/sklearn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据并行</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/%E6%95%B0%E6%8D%AE%E5%B9%B6%E8%A1%8C/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/数据并行/</id>
-    <published>2019-05-17T07:50:44.000Z</published>
-    <updated>2019-05-17T07:56:28.727Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>os.path用法</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/os-path%E7%94%A8%E6%B3%95/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/os-path用法/</id>
-    <published>2019-05-17T07:12:26.000Z</published>
-    <updated>2019-05-17T07:26:49.728Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随机种子</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/%E4%B8%BB%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/主函数分析/</id>
-    <published>2019-05-17T06:49:06.000Z</published>
-    <updated>2019-05-17T07:02:35.848Z</updated>
-    
-    <summary type="html">
-    
-      &lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;np.random.seed(&lt;span class=&quot;number&quot;&gt;666&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;torch.manual_seed(&lt;span class=&quot;number&quot;&gt;666&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;torch.cuda.manual_seed_all(&lt;span class=&quot;number&quot;&gt;666&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;random.seed(&lt;span class=&quot;number&quot;&gt;666&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
     
     </summary>
     
