@@ -105,22 +105,26 @@
 
 
 
-  <meta name="keywords" content="sklearn">
+  <meta name="description" content="课题总方向：  算出2*2共形天线的输入阻抗，表面电流，辐射功率，天线阵增益 加入H_2矩阵的快速求解阻抗矩阵 由于耦合，对方向图进行优化">
 <meta property="og:type" content="article">
-<meta property="og:title" content="train_test_split">
-<meta property="og:url" content="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/train-test-split/index.html">
+<meta property="og:title" content="MOM">
+<meta property="og:url" content="https://dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/index.html">
 <meta property="og:site_name" content="一个专注DL的小白">
+<meta property="og:description" content="课题总方向：  算出2*2共形天线的输入阻抗，表面电流，辐射功率，天线阵增益 加入H_2矩阵的快速求解阻抗矩阵 由于耦合，对方向图进行优化">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-17T08:12:09.724Z">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190523/spFrAKX1szqr.png?imageslim">
+<meta property="og:updated_time" content="2019-05-23T10:51:32.096Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="train_test_split">
+<meta name="twitter:title" content="MOM">
+<meta name="twitter:description" content="课题总方向：  算出2*2共形天线的输入阻抗，表面电流，辐射功率，天线阵增益 加入H_2矩阵的快速求解阻抗矩阵 由于耦合，对方向图进行优化">
+<meta name="twitter:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190523/spFrAKX1szqr.png?imageslim">
 
 
 
 
 
 
-  <link rel="canonical" href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/train-test-split/">
+  <link rel="canonical" href="https://dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/">
 
 
 
@@ -130,7 +134,7 @@
   };
 </script>
 
-  <title>train_test_split | 一个专注DL的小白</title>
+  <title>MOM | 一个专注DL的小白</title>
   
 
 
@@ -359,7 +363,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://dreamercv.github.io/dreamercv.github.io/dreamercv.github.io/2019/05/17/train-test-split/">
+    <link itemprop="mainEntityOfPage" href="https://dreamercv.github.io/dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="范斌">
@@ -376,7 +380,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">train_test_split
+          <h1 class="post-title" itemprop="name headline">MOM
 
               
             
@@ -403,12 +407,24 @@
                 
               
 
-              <time title="创建时间：2019-05-17 16:03:22 / 修改时间：16:12:09" itemprop="dateCreated datePublished" datetime="2019-05-17T16:03:22+08:00">2019-05-17</time>
+              <time title="创建时间：2019-05-22 22:43:27" itemprop="dateCreated datePublished" datetime="2019-05-22T22:43:27+08:00">2019-05-22</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-23 18:51:32" itemprop="dateModified" datetime="2019-05-23T18:51:32+08:00">2019-05-23</time>
               
             
           </span>
@@ -425,14 +441,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/广东工业-物体检测/" itemprop="url" rel="index"><span itemprop="name">广东工业-物体检测</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/广东工业-物体检测/函数分析/" itemprop="url" rel="index"><span itemprop="name">函数分析</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/MOM/" itemprop="url" rel="index"><span itemprop="name">MOM</span></a></span>
 
                 
                 
@@ -474,33 +483,24 @@
       
 
       
-        <meta name="referrer" content="no-referrer"> 
+        <blockquote>
+<p>课题总方向：</p>
+<ul>
+<li>算出2*2共形天线的输入阻抗，表面电流，辐射功率，天线阵增益</li>
+<li>加入H_2矩阵的快速求解阻抗矩阵</li>
+<li>由于耦合，对方向图进行优化</li>
+</ul>
+</blockquote>
+<meta name="referrer" content="no-referrer"> 
 
 <a id="more"></a> 
-<blockquote>
-<p>在机器学习中，我们通常将原始数据按照比例分割为“测试集”和“训练集” ，从 sklearn.model_selection 中调用train_test_split 函数。 </p>
-</blockquote>
-<p>简单用法如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">X_train,X_test, y_train, y_test =</span><br><span class="line">		sklearn.model_selection.train_test_split(</span><br><span class="line">                    train_data,</span><br><span class="line">                    train_target,</span><br><span class="line">                    test_size=<span class="number">0.4</span>, </span><br><span class="line">                    random_state=<span class="number">666</span>,</span><br><span class="line">                    stratify=y_train)</span><br></pre></td></tr></table></figure>
-<p><code>train_data</code>：所要划分的样本特征集</p>
-<p><code>train_target</code>：所要划分的样本结果</p>
-<p><code>test_size</code>：样本占比，如果是整数的话就是样本的数量</p>
-<p><code>random_state</code>：是随机数的种子。</p>
-<blockquote>
-<p>随机数种子：其实就是该组随机数的编号，在需要重复试验的时候，保证得到一组一样的随机数。比如你每次都填1，其他参数一样的情况下你得到的随机数组是一样的。但填0或不填，每次都会不一样。</p>
-</blockquote>
-<p><code>stratify</code>是为了保持split前类的分布。</p>
-<blockquote>
-<p>比如有100个数据，80个属于A类，20个属于B类。如果train_test_split(… test_size=0.25, stratify = y_all), 那么split之后数据如下： </p>
-<ul>
-<li>training: 75个数据，其中60个属于A类，15个属于B类。</li>
-<li>testing: 25个数据，其中20个属于A类，5个属于B类。 </li>
-</ul>
-<p>用了stratify参数，training集和testing集的类的比例是 A：B= 4：1，等同于split前的比例（80：20）。通常在这种类分布不平衡的情况下会用到stratify。</p>
-<p>将stratify=X就是按照X中的比例分配 </p>
-<p>将stratify=y就是按照y中的比例分配 </p>
-</blockquote>
-
+<h3 id="细节"><a href="#细节" class="headerlink" title="细节"></a>细节</h3><p>单元贴片的尺寸，这里说的是平面是贴片的尺寸，如果圆柱的班级你过于波长满足一定的关系是，曲面贴片是可以近似成平面的（参考：<strong>高动态圆柱共形微带北斗天线设计</strong>）：</p>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190523/spFrAKX1szqr.png?imageslim" alt="mark"></p>
+<h3 id="高动态圆柱共形微带北斗天线设计"><a href="#高动态圆柱共形微带北斗天线设计" class="headerlink" title="高动态圆柱共形微带北斗天线设计"></a>高动态圆柱共形微带北斗天线设计</h3><p>​    该论文主要介绍了一腔模型为理论，分析了圆柱共形天线，不过里面涉及到了<strong>矩形微带单元尺寸的设计</strong>（曲面贴片何时可以等效成平面贴片的尺寸），可以借鉴。</p>
+<h3 id="阵列天线的互耦特性研究"><a href="#阵列天线的互耦特性研究" class="headerlink" title="阵列天线的互耦特性研究"></a>阵列天线的互耦特性研究</h3><p>在第二张的2.3节作者介绍了微带贴片的辐射特性中有利用传输线理论给出了<strong>E面H面的辐射方向图</strong></p>
+<p>借鉴第三章中阵列天线的研究方法，详细介绍了<strong>矩量法来分析阵列</strong>，其中提到了互阻抗、傅里叶变化的概念（不明白）。</p>
+<p>第四章应该是考虑耦合情况下方向图的优化（先收藏着）</p>
+<h3 id="偶极子单元圆柱共形阵列电磁特性的MOM分析"><a href="#偶极子单元圆柱共形阵列电磁特性的MOM分析" class="headerlink" title="偶极子单元圆柱共形阵列电磁特性的MOM分析"></a>偶极子单元圆柱共形阵列电磁特性的MOM分析</h3>
       
     </div>
 
@@ -520,12 +520,6 @@
     
 
     <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/dreamercv.github.io/tags/sklearn/" rel="tag"><i class="fa fa-google"></i> sklearn</a>
-          
-        </div>
       
 
       
@@ -590,8 +584,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/dreamercv.github.io/2019/05/17/数据并行/" rel="next" title="数据并行">
-                <i class="fa fa-chevron-left"></i> 数据并行
+              <a href="/dreamercv.github.io/2019/05/20/二叉树/" rel="next" title="二叉树概念">
+                <i class="fa fa-chevron-left"></i> 二叉树概念
               </a>
             
           </div>
@@ -600,8 +594,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/dreamercv.github.io/2019/05/17/图片归一化/" rel="prev" title="图片归一化">
-                图片归一化 <i class="fa fa-chevron-right"></i>
+              <a href="/dreamercv.github.io/2019/05/24/CNN网络专题综述/" rel="prev" title="CNN网络专题综述">
+                CNN网络专题综述 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -646,8 +640,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -811,6 +814,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#细节"><span class="nav-number">1.</span> <span class="nav-text">细节</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#高动态圆柱共形微带北斗天线设计"><span class="nav-number">2.</span> <span class="nav-text">高动态圆柱共形微带北斗天线设计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#阵列天线的互耦特性研究"><span class="nav-number">3.</span> <span class="nav-text">阵列天线的互耦特性研究</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#偶极子单元圆柱共形阵列电磁特性的MOM分析"><span class="nav-number">4.</span> <span class="nav-text">偶极子单元圆柱共形阵列电磁特性的MOM分析</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       

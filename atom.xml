@@ -6,7 +6,7 @@
   <link href="/dreamercv.github.io/atom.xml" rel="self"/>
   
   <link href="https://dreamercv.github.io/dreamercv.github.io/"/>
-  <updated>2019-05-20T15:25:09.433Z</updated>
+  <updated>2019-05-24T04:08:02.107Z</updated>
   <id>https://dreamercv.github.io/dreamercv.github.io/</id>
   
   <author>
@@ -15,6 +15,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>目标检测论文综述</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E8%AE%BA%E6%96%87%E7%BB%BC%E8%BF%B0/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/24/目标检测论文综述/</id>
+    <published>2019-05-24T02:46:21.000Z</published>
+    <updated>2019-05-24T04:08:02.107Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://prjlqbksp.bkt.clouddn.com/blog/20190524/c7C4q1Ykjxcg.png?imageslim&quot; alt=&quot;mark&quot;&gt;&lt;/p&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="计算机视觉j" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89j/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CNN网络专题综述</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN%E7%BD%91%E7%BB%9C%E4%B8%93%E9%A2%98%E7%BB%BC%E8%BF%B0/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN网络专题综述/</id>
+    <published>2019-05-24T01:47:05.000Z</published>
+    <updated>2019-05-24T02:34:41.900Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;论文《&lt;strong&gt;A Survey of the Recent Architectures of Deep Convolutional Neural Networks&lt;/strong&gt;  》&lt;/p&gt;
+&lt;p&gt;地址 &lt;a href=&quot;https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf&lt;/a&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://prjlqbksp.bkt.clouddn.com/blog/20190524/Sn3WKc1IQJ63.png?imageslim&quot; alt=&quot;mark&quot;&gt;&lt;/p&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MOM</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/</id>
+    <published>2019-05-22T14:43:27.000Z</published>
+    <updated>2019-05-23T10:51:32.096Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;课题总方向：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;算出2*2共形天线的输入阻抗，表面电流，辐射功率，天线阵增益&lt;/li&gt;
+&lt;li&gt;加入H_2矩阵的快速求解阻抗矩阵&lt;/li&gt;
+&lt;li&gt;由于耦合，对方向图进行优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="MOM" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/MOM/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>二叉树概念</title>
@@ -274,10 +340,10 @@
   
   <entry>
     <title>数据加载与处理</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/数据加载与处理/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-数据加载与处理/</id>
     <published>2019-05-18T02:06:08.000Z</published>
-    <updated>2019-05-18T02:18:29.336Z</updated>
+    <updated>2019-05-18T02:19:30.834Z</updated>
     
     <summary type="html">
     
@@ -300,10 +366,10 @@
   
   <entry>
     <title>数据加载与处理</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-数据加载与处理/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/数据加载与处理/</id>
     <published>2019-05-18T02:06:08.000Z</published>
-    <updated>2019-05-18T02:19:30.834Z</updated>
+    <updated>2019-05-18T02:18:29.336Z</updated>
     
     <summary type="html">
     
@@ -397,78 +463,6 @@
     
     
       <category term="Inception" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/Inception/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HetConv</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/HetConv/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/HetConv/</id>
-    <published>2019-05-17T10:51:05.000Z</published>
-    <updated>2019-05-17T12:24:09.621Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;&amp;lt;HetConv: Heterogeneous Kernel-Based Convolutions for Deep CNNs &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;论文:《 Heterogeneous Kernel-Based Convolutions for Deep CNNs 》&lt;/p&gt;
-&lt;p&gt;地址：&lt;a href=&quot;https://arxiv.org/abs/1903.04120&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/abs/1903.04120&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;源码：&lt;a href=&quot;https://github.com/sxpro/HetConvolution2d_pytorch&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/sxpro/HetConvolution2d_pytorch&lt;/a&gt; &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
-    
-    
-      <category term="HetConv" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/HetConv/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>iterrows对dataframe进行遍历</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/iterrows%E5%AF%B9dataframe%E8%BF%9B%E8%A1%8C%E9%81%8D%E5%8E%86/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/iterrows对dataframe进行遍历/</id>
-    <published>2019-05-17T08:55:45.000Z</published>
-    <updated>2019-05-17T09:55:43.850Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="python" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>图片归一化</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/%E5%9B%BE%E7%89%87%E5%BD%92%E4%B8%80%E5%8C%96/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/图片归一化/</id>
-    <published>2019-05-17T08:16:12.000Z</published>
-    <updated>2019-05-17T09:55:58.300Z</updated>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
     
   </entry>
   

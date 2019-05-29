@@ -105,22 +105,27 @@
 
 
 
-  <meta name="keywords" content="sklearn">
+  <meta name="description" content="论文《A Survey of the Recent Architectures of Deep Convolutional Neural Networks  》 地址 https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf">
 <meta property="og:type" content="article">
-<meta property="og:title" content="train_test_split">
-<meta property="og:url" content="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/train-test-split/index.html">
+<meta property="og:title" content="CNN网络专题综述">
+<meta property="og:url" content="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN网络专题综述/index.html">
 <meta property="og:site_name" content="一个专注DL的小白">
+<meta property="og:description" content="论文《A Survey of the Recent Architectures of Deep Convolutional Neural Networks  》 地址 https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-17T08:12:09.724Z">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190524/Sn3WKc1IQJ63.png?imageslim">
+<meta property="og:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190524/VQ5P2xfvrXnl.png?imageslim">
+<meta property="og:updated_time" content="2019-05-24T02:34:41.900Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="train_test_split">
+<meta name="twitter:title" content="CNN网络专题综述">
+<meta name="twitter:description" content="论文《A Survey of the Recent Architectures of Deep Convolutional Neural Networks  》 地址 https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf">
+<meta name="twitter:image" content="http://prjlqbksp.bkt.clouddn.com/blog/20190524/Sn3WKc1IQJ63.png?imageslim">
 
 
 
 
 
 
-  <link rel="canonical" href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/train-test-split/">
+  <link rel="canonical" href="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN网络专题综述/">
 
 
 
@@ -130,7 +135,7 @@
   };
 </script>
 
-  <title>train_test_split | 一个专注DL的小白</title>
+  <title>CNN网络专题综述 | 一个专注DL的小白</title>
   
 
 
@@ -359,7 +364,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://dreamercv.github.io/dreamercv.github.io/dreamercv.github.io/2019/05/17/train-test-split/">
+    <link itemprop="mainEntityOfPage" href="https://dreamercv.github.io/dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN网络专题综述/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="范斌">
@@ -376,7 +381,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">train_test_split
+          <h1 class="post-title" itemprop="name headline">CNN网络专题综述
 
               
             
@@ -403,7 +408,7 @@
                 
               
 
-              <time title="创建时间：2019-05-17 16:03:22 / 修改时间：16:12:09" itemprop="dateCreated datePublished" datetime="2019-05-17T16:03:22+08:00">2019-05-17</time>
+              <time title="创建时间：2019-05-24 09:47:05 / 修改时间：10:34:41" itemprop="dateCreated datePublished" datetime="2019-05-24T09:47:05+08:00">2019-05-24</time>
             
 
             
@@ -413,31 +418,6 @@
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/广东工业-物体检测/" itemprop="url" rel="index"><span itemprop="name">广东工业-物体检测</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/dreamercv.github.io/categories/广东工业-物体检测/函数分析/" itemprop="url" rel="index"><span itemprop="name">函数分析</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -474,32 +454,59 @@
       
 
       
-        <meta name="referrer" content="no-referrer"> 
+        <blockquote>
+<p>论文《<strong>A Survey of the Recent Architectures of Deep Convolutional Neural Networks</strong>  》</p>
+<p>地址 <a href="https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf" target="_blank" rel="noopener">https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf</a> </p>
+</blockquote>
+<p><img src="http://prjlqbksp.bkt.clouddn.com/blog/20190524/Sn3WKc1IQJ63.png?imageslim" alt="mark"></p>
+<meta name="referrer" content="no-referrer"> 
 
 <a id="more"></a> 
-<blockquote>
-<p>在机器学习中，我们通常将原始数据按照比例分割为“测试集”和“训练集” ，从 sklearn.model_selection 中调用train_test_split 函数。 </p>
-</blockquote>
-<p>简单用法如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">X_train,X_test, y_train, y_test =</span><br><span class="line">		sklearn.model_selection.train_test_split(</span><br><span class="line">                    train_data,</span><br><span class="line">                    train_target,</span><br><span class="line">                    test_size=<span class="number">0.4</span>, </span><br><span class="line">                    random_state=<span class="number">666</span>,</span><br><span class="line">                    stratify=y_train)</span><br></pre></td></tr></table></figure>
-<p><code>train_data</code>：所要划分的样本特征集</p>
-<p><code>train_target</code>：所要划分的样本结果</p>
-<p><code>test_size</code>：样本占比，如果是整数的话就是样本的数量</p>
-<p><code>random_state</code>：是随机数的种子。</p>
-<blockquote>
-<p>随机数种子：其实就是该组随机数的编号，在需要重复试验的时候，保证得到一组一样的随机数。比如你每次都填1，其他参数一样的情况下你得到的随机数组是一样的。但填0或不填，每次都会不一样。</p>
-</blockquote>
-<p><code>stratify</code>是为了保持split前类的分布。</p>
-<blockquote>
-<p>比如有100个数据，80个属于A类，20个属于B类。如果train_test_split(… test_size=0.25, stratify = y_all), 那么split之后数据如下： </p>
+<h3 id="基于空间利用的-CNN"><a href="#基于空间利用的-CNN" class="headerlink" title="基于空间利用的 CNN"></a><strong>基于空间利用的 CNN</strong></h3><p>CNN 有大量参数，如处理单元数量（神经元）、层数、滤波器大小、步幅、学习率和激活函数等。由于 CNN 考虑输入像素的邻域（局部性），可以使用不同大小的滤波器来探索不同级别的相关性。因此，在 2000 年初，研究人员利用空间变换来提升性能，此外，还评估了不同大小的滤波器对网络学习率的影响。不同大小的滤波器封装不同级别的粒度；通常，较小的滤波器提取细粒度信息，而较大的滤波器提取粗粒度信息。这样，通过调整滤波器大小，CNN 可以在粗粒度和细粒度的细节上都表现很好。 </p>
 <ul>
-<li>training: 75个数据，其中60个属于A类，15个属于B类。</li>
-<li>testing: 25个数据，其中20个属于A类，5个属于B类。 </li>
+<li>LeNet</li>
+<li>AlexNet</li>
+<li>ZefNet</li>
+<li>VGG</li>
+<li>GoogLeNet</li>
 </ul>
-<p>用了stratify参数，training集和testing集的类的比例是 A：B= 4：1，等同于split前的比例（80：20）。通常在这种类分布不平衡的情况下会用到stratify。</p>
-<p>将stratify=X就是按照X中的比例分配 </p>
-<p>将stratify=y就是按照y中的比例分配 </p>
-</blockquote>
+<h3 id="基于深度的-CNN"><a href="#基于深度的-CNN" class="headerlink" title="基于深度的 CNN"></a>基于深度的 CNN</h3><p>深度 CNN 架构基于这样一种假设：随着深度的增加，网络可以通过大量非线性映射和改进的特征表示更好地逼近目标函数。网络深度在监督学习的成功中起了重要作用。理论研究已表明，深度网络能够以指数方式比浅层网络更有效地表示特定的 20 个函数类型。2001 年，Csáji 表示了通用近似定理，指出单个隐藏层足够逼近任何函数，但这需要指数级的神经元，因而通常导致计算上行不通。在这方面，Bengio 和 elalleau 认为更深的网络有潜力在更少的成本下保持网络的表现能力。2013 年，Bengio 等人通过 实证表明，对于复杂的任务，深度网络在计算和统计上都更有效。在 2014-ILSVR 竞赛中表现最佳的 Inception 和 VGG 则进一步说明，深度是调节网络学习能力的重要维度。</p>
+<p>一旦特征被提取，只要其相对于其他位置的近似位置被保留，其提取位置就变得没那么重要了。池化或下采样（如卷积）是一种有趣的局部操作。它总结了感受野附近的类似信息，并输出了该局部区域内的主要反应。作为卷积运算的输出结果，特征图案可能会出现在图像中的不同位置。</p>
+<ul>
+<li>Highway Networks (2015)</li>
+<li>ResNet(2015)</li>
+<li>Inception-V3/V4 &amp; Inception-ResNet</li>
+<li>ResNext</li>
+</ul>
+<h3 id="基于多路径的-CNN"><a href="#基于多路径的-CNN" class="headerlink" title="基于多路径的 CNN"></a>基于多路径的 CNN</h3><p>深度网络的训练颇具挑战性，这也是近来很多深度网络研究的主题。深度 CNN 为复杂任务提供了高效的计算和统计。但是，更深的网络可能会遭遇性能下降或梯度消失/爆炸的问题，而这通常是由增加深度而非过拟合造成的。梯度消失问题不仅会导致更高的测试误差，还会导致更高的训练误差。为了训练更深的网络，多路径或跨层连接的概念被提出。多路径或捷径连接可以通过跳过一些中间层，系统地将一层连接到另一层，以使特定的信息流跨过层。跨层连接将网络划分为几块。这些路径也尝试通过使较低层访问梯度来解决梯度消失问题。为此，使用了不同类型的捷径连接，如零填充、基于投影、dropout 和 1x1 连接等。</p>
+<p>激活函数是一种决策函数，有助于学习复杂的模式。选择适当的激活函数可以加速学习过程。卷积特征图的激活函数定义为等式<img src="http://prjlqbksp.bkt.clouddn.com/blog/20190524/VQ5P2xfvrXnl.png?imageslim" alt="mark"></p>
+<ul>
+<li>Highway Networks </li>
+<li>ResNet </li>
+<li>DenseNets </li>
+</ul>
+<h3 id="基于宽度的多连接-CNN"><a href="#基于宽度的多连接-CNN" class="headerlink" title="基于宽度的多连接 CNN"></a>基于宽度的多连接 CNN</h3><p>2012 至 2015 年，网络架构的重点是深度的力量，以及多通道监管连接在网络正则化中的重要性。然而，网络的宽度和深度一样重要。通过在一层之内并行使用多处理单元，多层感知机获得了在感知机上映射复杂函数的优势。这表明宽度和深度一样是定义学习原则的一个重要参数。Lu 等人和 Hanin &amp; Sellke 最近表明，带有线性整流激活函数的神经网络要足够宽才能随着深度增加保持通用的近似特性。并且，如果网络的最大宽度不大于输入维度，紧致集上的连续函数类无法被任意深度的网络很好地近似。因此，多层堆叠（增加层）可能不会增加神经网络的表征能力。与深度架构相关的一个重要问题是，有些层或处理单元可能无法学习有用的特征。为了解决这一问题，研究的重点从深度和较窄的架构转移到了较浅和较宽的架构上。 </p>
+<ul>
+<li>WideResNet </li>
+<li>Pyramidal Net </li>
+<li>Xception </li>
+<li>Inception Family </li>
+</ul>
+<h3 id="基于特征图（通道特征图）开发的-CNN"><a href="#基于特征图（通道特征图）开发的-CNN" class="headerlink" title="基于特征图（通道特征图）开发的 CNN"></a>基于特征图（通道特征图）开发的 CNN</h3><p>CNN 因其分层学习和自动特征提取能力而闻名于 MV 任务中。特征选择在决定分类、分割和检测模块的性能上起着重要作用。传统特征提取技术中分类模块的性能要受限于特征的单一性。相较于传统技术，CNN 使用多阶段特征提取，根据分配的输入来提取不同类型的特征（CNN 中称之为特征图）。但是，一些特征图有很少或者几乎没有目标鉴别作用。巨大的特征集有噪声效应，会导致网络过拟合。这表明，除了网络工程外，特定类别特征图的选取对改进网络的泛化性能至关重要。在这一部分，特征图和通道会交替使用，因为很多研究者已经用通道这个词代替了特征图。 </p>
+<ul>
+<li>SENet</li>
+<li>CMPE-SENet</li>
+</ul>
+<h3 id="基于通道（输入通道）利用的-CNN"><a href="#基于通道（输入通道）利用的-CNN" class="headerlink" title="基于通道（输入通道）利用的 CNN"></a><strong>基于通道（输入通道）利用的 CNN</strong></h3><p>图像表征在决定图像处理算法的性能方面起着重要作用。图像的良好表征可以定义来自紧凑代码的图像的突出特征。在不同的研究中，不同类型的传统滤波器被用来提取单一类型图像的不同级别信息。这些不同的表征被用作模型的输入，以提高性能。CNN 是一个很好的特征学习器，它能根据问题自动提取鉴别特征。但是，CNN 的学习依赖于输入表征。如果输入中缺乏多样性和类别定义信息，CNN 作为鉴别器的性能就会受到影响。为此，辅助学习器的概念被引入到 CNN 中来提升网络的输入表征。 </p>
+<ul>
+<li>CB-CNN</li>
+</ul>
+<h3 id="基于注意力的-CNN"><a href="#基于注意力的-CNN" class="headerlink" title="基于注意力的 CNN"></a>基于注意力的 CNN</h3><p>不同的抽象级别在定义神经网络的鉴别能力方面有着重要的作用。除此之外，选择与上下文相关的特征对于图像定位和识别也很重要。在人类的视觉系统中，这种现象叫做注意力。人类在一次又一次的匆匆一瞥中观察场景并注意与上下文相关的部分。在这个过程中，人类不仅注意选择的区域，而且推理出关于那个位置的物体的不同解释。因此，它有助于人类以更好的方式来抓取视觉结构。类似的解释能力被添加到像 RNN 和 LSTM 这样的神经网络中。上述网络利用注意力模块来生成序列数据，并且根据新样本在先前迭代中的出现来对其加权。不同的研究者把注意力概念加入到 CNN 中来改进表征和克服数据的计算限制问题。注意力概念有助于让 CNN 变得更加智能，使其在杂乱的背景和复杂的场景中也能识别物体。 </p>
+<ul>
+<li>Residual Attention Network (RAN) </li>
+<li>Convolutional Block Attention Module (CBAM) </li>
+<li>Concurrent Spatial and Channel Excitation Mechanism </li>
+</ul>
 
       
     </div>
@@ -520,12 +527,6 @@
     
 
     <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/dreamercv.github.io/tags/sklearn/" rel="tag"><i class="fa fa-google"></i> sklearn</a>
-          
-        </div>
       
 
       
@@ -590,8 +591,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/dreamercv.github.io/2019/05/17/数据并行/" rel="next" title="数据并行">
-                <i class="fa fa-chevron-left"></i> 数据并行
+              <a href="/dreamercv.github.io/2019/05/22/MOM/" rel="next" title="MOM">
+                <i class="fa fa-chevron-left"></i> MOM
               </a>
             
           </div>
@@ -600,8 +601,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/dreamercv.github.io/2019/05/17/图片归一化/" rel="prev" title="图片归一化">
-                图片归一化 <i class="fa fa-chevron-right"></i>
+              <a href="/dreamercv.github.io/2019/05/24/目标检测论文综述/" rel="prev" title="目标检测论文综述">
+                目标检测论文综述 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -646,8 +647,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -811,6 +821,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#基于空间利用的-CNN"><span class="nav-number">1.</span> <span class="nav-text">基于空间利用的 CNN</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基于深度的-CNN"><span class="nav-number">2.</span> <span class="nav-text">基于深度的 CNN</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基于多路径的-CNN"><span class="nav-number">3.</span> <span class="nav-text">基于多路径的 CNN</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基于宽度的多连接-CNN"><span class="nav-number">4.</span> <span class="nav-text">基于宽度的多连接 CNN</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基于特征图（通道特征图）开发的-CNN"><span class="nav-number">5.</span> <span class="nav-text">基于特征图（通道特征图）开发的 CNN</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基于通道（输入通道）利用的-CNN"><span class="nav-number">6.</span> <span class="nav-text">基于通道（输入通道）利用的 CNN</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基于注意力的-CNN"><span class="nav-number">7.</span> <span class="nav-text">基于注意力的 CNN</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
