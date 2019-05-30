@@ -6,7 +6,7 @@
   <link href="/dreamercv.github.io/atom.xml" rel="self"/>
   
   <link href="https://dreamercv.github.io/dreamercv.github.io/"/>
-  <updated>2019-05-24T04:08:02.107Z</updated>
+  <updated>2019-05-30T14:38:01.816Z</updated>
   <id>https://dreamercv.github.io/dreamercv.github.io/</id>
   
   <author>
@@ -17,11 +17,147 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>DenseNet</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/30/DenseNet/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/DenseNet/</id>
+    <published>2019-05-30T14:04:20.000Z</published>
+    <updated>2019-05-30T14:38:01.816Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;论文：Densely Connected Convolutional Networks  &lt;/p&gt;
+&lt;p&gt;地址：&lt;a href=&quot;https://arxiv.org/pdf/1608.06993.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/pdf/1608.06993.pdf&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;代码：&lt;a href=&quot;https://github.com/gpleiss/efficient_densenet_pytorch&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/gpleiss/efficient_densenet_pytorch&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前馈网络的写法</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/30/pytorch/%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C%E7%9A%84%E5%86%99%E6%B3%95/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/pytorch/前馈网络的写法/</id>
+    <published>2019-05-30T13:02:14.000Z</published>
+    <updated>2019-05-30T13:55:08.041Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;于此类网络如果每次都写复杂的forward函数会有些麻烦，在此就有两种简化方式，ModuleList和Sequential。其中Sequential是一个特殊的module，它包含几个子Module，前向传播时会将输入一层接一层的传递下去。ModuleList也是一个特殊的module，可以包含几个子module，可以像用list一样使用它，但不能直接把输入传给ModuleList。下面举例说明。&lt;/p&gt;
+&lt;p&gt;对于此类网络如果每次都写复杂的forward函数会有些麻烦，在此就有两种简化方式，ModuleList和Sequential。其中Sequential是一个特殊的module，它包含几个子Module，前向传播时会将输入一层接一层的传递下去。ModuleList也是一个特殊的module，可以包含几个子module，可以像用list一样使用它，但不能直接把输入传给ModuleList。下面举例说明。&lt;/p&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/pytorch/"/>
+    
+    
+      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ResNext</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/30/ResNext/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/ResNext/</id>
+    <published>2019-05-30T11:07:19.000Z</published>
+    <updated>2019-05-30T14:42:06.409Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;论文：Aggregated Residual Transformations for Deep Neural Networks&lt;/p&gt;
+&lt;p&gt;地址：&lt;a href=&quot;https://arxiv.org/abs/1611.05431&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/abs/1611.05431&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;代码：&lt;a href=&quot;https://github.com/miraclewkf/ResNeXt-PyTorch&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/miraclewkf/ResNeXt-PyTorch&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ResNext</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/30/CNN/ResNext/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/CNN/ResNext/</id>
+    <published>2019-05-30T11:07:19.000Z</published>
+    <updated>2019-05-30T12:18:27.422Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;论文：Aggregated Residual Transformations for Deep Neural Networks&lt;/p&gt;
+&lt;p&gt;地址：&lt;a href=&quot;https://arxiv.org/abs/1611.05431&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/abs/1611.05431&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;代码：&lt;a href=&quot;https://github.com/miraclewkf/ResNeXt-PyTorch&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/miraclewkf/ResNeXt-PyTorch&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>贴片天线单元</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/30/MOM/%E8%B4%B4%E7%89%87%E5%A4%A9%E7%BA%BF%E5%8D%95%E5%85%83/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/MOM/贴片天线单元/</id>
+    <published>2019-05-30T00:03:26.000Z</published>
+    <updated>2019-05-30T14:23:03.124Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="MOM" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/MOM/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据加载器</title>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/pytorch/%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E5%99%A8/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/24/pytorch/数据加载器/</id>
+    <published>2019-05-24T14:24:49.000Z</published>
+    <updated>2019-05-30T14:18:04.843Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;发现一个很好用的图片读取工具以前要一张图片一张图片的读取，可以直接使用pytorch中的torchvision直接读取图片的类别与位置。&lt;/p&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+    
+    </summary>
+    
+      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/pytorch/"/>
+    
+    
+      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
+    
+  </entry>
+  
+  <entry>
     <title>目标检测论文综述</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E8%AE%BA%E6%96%87%E7%BB%BC%E8%BF%B0/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/24/目标检测论文综述/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E8%AE%BA%E6%96%87%E7%BB%BC%E8%BF%B0/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/24/计算机视觉/目标检测论文综述/</id>
     <published>2019-05-24T02:46:21.000Z</published>
-    <updated>2019-05-24T04:08:02.107Z</updated>
+    <updated>2019-05-30T14:22:40.329Z</updated>
     
     <summary type="html">
     
@@ -30,17 +166,17 @@
     
     </summary>
     
-      <category term="计算机视觉j" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89j/"/>
+      <category term="计算机视觉" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
     
   </entry>
   
   <entry>
     <title>CNN网络专题综述</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN%E7%BD%91%E7%BB%9C%E4%B8%93%E9%A2%98%E7%BB%BC%E8%BF%B0/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN网络专题综述/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN/CNN%E7%BD%91%E7%BB%9C%E4%B8%93%E9%A2%98%E7%BB%BC%E8%BF%B0/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/24/CNN/CNN网络专题综述/</id>
     <published>2019-05-24T01:47:05.000Z</published>
-    <updated>2019-05-24T02:34:41.900Z</updated>
+    <updated>2019-05-30T14:23:31.416Z</updated>
     
     <summary type="html">
     
@@ -53,15 +189,17 @@
     
     </summary>
     
+      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
+    
     
   </entry>
   
   <entry>
     <title>MOM</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/MOM/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/22/MOM/MOM/</id>
     <published>2019-05-22T14:43:27.000Z</published>
-    <updated>2019-05-23T10:51:32.096Z</updated>
+    <updated>2019-05-29T13:57:25.540Z</updated>
     
     <summary type="html">
     
@@ -84,8 +222,8 @@
   
   <entry>
     <title>二叉树概念</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/二叉树/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E5%89%91%E6%8C%87offer/%E4%BA%8C%E5%8F%89%E6%A0%91%E6%A6%82%E5%BF%B5/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/剑指offer/二叉树概念/</id>
     <published>2019-05-20T13:21:57.000Z</published>
     <updated>2019-05-20T15:25:09.433Z</updated>
     
@@ -106,8 +244,8 @@
   
   <entry>
     <title>机器学习一</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%80/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/机器学习一/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%80/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/机器学习/机器学习一/</id>
     <published>2019-05-20T11:20:33.000Z</published>
     <updated>2019-05-20T11:21:10.906Z</updated>
     
@@ -126,8 +264,8 @@
   
   <entry>
     <title>深度学习一</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/CNN%E5%8D%B7%E7%A7%AF%E6%A0%B8%E6%98%AF3D%E5%A4%9A%E5%B1%82/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/CNN卷积核是3D多层/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%80/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/深度学习/深度学习一/</id>
     <published>2019-05-20T11:03:53.000Z</published>
     <updated>2019-05-20T11:19:44.087Z</updated>
     
@@ -146,8 +284,8 @@
   
   <entry>
     <title>图像标注工具Labelme安装与使用</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E5%9B%BE%E5%83%8F%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7Labelme%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/图像标注工具Labelme安装与使用/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/20/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%9B%BE%E5%83%8F%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7Labelme%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/20/广东工业-物体检测/图像标注工具Labelme安装与使用/</id>
     <published>2019-05-20T06:55:36.000Z</published>
     <updated>2019-05-20T08:20:42.663Z</updated>
     
@@ -168,8 +306,8 @@
   
   <entry>
     <title>Res2Net</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/19/Res2Net/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/19/Res2Net/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/19/CNN/Res2Net/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/19/CNN/Res2Net/</id>
     <published>2019-05-19T13:51:40.000Z</published>
     <updated>2019-05-19T14:41:44.673Z</updated>
     
@@ -191,8 +329,8 @@
   
   <entry>
     <title>GroupConvolution</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/19/GroupConvolution/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/19/GroupConvolution/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/19/CNN/GroupConvolution/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/19/CNN/GroupConvolution/</id>
     <published>2019-05-19T13:14:28.000Z</published>
     <updated>2019-05-19T13:45:03.287Z</updated>
     
@@ -209,10 +347,10 @@
   
   <entry>
     <title>VGG</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/VGG/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/VGG/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/CNN/VGG/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/CNN/VGG/</id>
     <published>2019-05-18T14:16:08.000Z</published>
-    <updated>2019-05-18T15:10:47.416Z</updated>
+    <updated>2019-05-30T13:55:26.779Z</updated>
     
     <summary type="html">
     
@@ -225,17 +363,15 @@
     
       <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
     
-      <category term="Spatial Exploitation based CNNs" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/Spatial-Exploitation-based-CNNs/"/>
-    
     
   </entry>
   
   <entry>
     <title>AlexNet</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/AlexNet/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/AlexNet/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/CNN/AlexNet/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/CNN/AlexNet/</id>
     <published>2019-05-18T12:57:09.000Z</published>
-    <updated>2019-05-18T15:17:42.785Z</updated>
+    <updated>2019-05-30T11:07:43.885Z</updated>
     
     <summary type="html">
     
@@ -248,17 +384,15 @@
     
       <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
     
-      <category term="Spatial Exploitation based CNNs" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/Spatial-Exploitation-based-CNNs/"/>
-    
     
   </entry>
   
   <entry>
     <title>DL中的Top</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/DL%E4%B8%AD%E7%9A%84Top/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/DL中的Top/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/DL%E4%B8%AD%E7%9A%84Top/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/深度学习/DL中的Top/</id>
     <published>2019-05-18T04:43:32.000Z</published>
-    <updated>2019-05-18T04:46:48.263Z</updated>
+    <updated>2019-05-30T14:14:13.671Z</updated>
     
     <summary type="html">
     
@@ -266,15 +400,17 @@
     
     </summary>
     
-      <category term="DL基础" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/DL%E5%9F%BA%E7%A1%80/"/>
+      <category term="面试" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="深度学习" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E9%9D%A2%E8%AF%95/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
     
   </entry>
   
   <entry>
     <title>Markdown点滴</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/markdown%E7%82%B9%E6%BB%B4/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/markdown点滴/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/%E5%B7%A5%E5%85%B7/markdown%E7%82%B9%E6%BB%B4/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/工具/markdown点滴/</id>
     <published>2019-05-18T04:19:15.000Z</published>
     <updated>2019-05-18T04:26:32.906Z</updated>
     
@@ -294,8 +430,8 @@
   
   <entry>
     <title>__call__方法</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/call-%E6%96%B9%E6%B3%95/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/call-方法/</id>
+    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/call-%E6%96%B9%E6%B3%95/"/>
+    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/广东工业-物体检测/call-方法/</id>
     <published>2019-05-18T04:08:50.000Z</published>
     <updated>2019-05-18T04:15:23.714Z</updated>
     
@@ -312,157 +448,6 @@
     
     
       <category term="python" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>transforms的二十二个方法</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/transforms%E7%9A%84%E4%BA%8C%E5%8D%81%E4%BA%8C%E4%B8%AA%E6%96%B9%E6%B3%95/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/transforms的二十二个方法/</id>
-    <published>2019-05-18T02:34:02.000Z</published>
-    <updated>2019-05-18T02:53:50.461Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;预处理方法 ：裁剪—Crop、翻转和旋转—Flip and Rotation、图像变换、对transforms操作，使数据增强更灵活&lt;/p&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据加载与处理</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/pytorch-数据加载与处理/</id>
-    <published>2019-05-18T02:06:08.000Z</published>
-    <updated>2019-05-18T02:19:30.834Z</updated>
-    
-    <summary type="html">
-    
-      &lt;ol&gt;
-&lt;li&gt;一种是整个数据集都在一个文件夹下，内部再另附一个label文件，说明每个文件夹的状态，如这个&lt;a href=&quot;https://download.pytorch.org/tutorial/faces.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;数据库&lt;/a&gt;。这种存放数据的方式可能更适合在&lt;strong&gt;非分类&lt;/strong&gt;问题上得到应用。&lt;/li&gt;
-&lt;li&gt;一种则是更适合使用在&lt;strong&gt;分类&lt;/strong&gt;问题上，即把不同种类的数据分为不同的文件夹存放起来。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据加载与处理</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/18/%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%A4%84%E7%90%86/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/18/数据加载与处理/</id>
-    <published>2019-05-18T02:06:08.000Z</published>
-    <updated>2019-05-18T02:18:29.336Z</updated>
-    
-    <summary type="html">
-    
-      &lt;ol&gt;
-&lt;li&gt;一种是整个数据集都在一个文件夹下，内部再另附一个label文件，说明每个文件夹的状态，如这个&lt;a href=&quot;https://download.pytorch.org/tutorial/faces.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;数据库&lt;/a&gt;。这种存放数据的方式可能更适合在&lt;strong&gt;非分类&lt;/strong&gt;问题上得到应用。&lt;/li&gt;
-&lt;li&gt;一种则是更适合使用在&lt;strong&gt;分类&lt;/strong&gt;问题上，即把不同种类的数据分为不同的文件夹存放起来。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="广东工业-物体检测" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
-    
-      <category term="函数分析" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A-%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B/%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="pytorch" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>InceptionV4</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/InceptionV4/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/InceptionV4/</id>
-    <published>2019-05-17T13:23:53.000Z</published>
-    <updated>2019-05-17T14:48:20.231Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;论文：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning, 3.08% test error  》&lt;/li&gt;
-&lt;li&gt;The paper address：&lt;a href=&quot;http://arxiv.org/abs/1602.07261&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://arxiv.org/abs/1602.07261&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
-    
-    
-      <category term="Inception" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/Inception/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>InceptionV2、V3</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/InceptionV2-V3/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/InceptionV2-V3/</id>
-    <published>2019-05-17T13:02:01.000Z</published>
-    <updated>2019-05-17T13:25:56.799Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;论文：V2《Batch Normalization: Accelerating Deep Network Training by Reducing Internal    》&lt;/p&gt;
-&lt;p&gt;地址：&lt;a href=&quot;http://arxiv.org/abs/1502.03167&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://arxiv.org/abs/1502.03167&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt; 论文：v3《Rethinking the Inception Architecture for Computer Vision, 3.5% test error  》&lt;/p&gt;
-&lt;p&gt;地址：&lt;a href=&quot;http://arxiv.org/abs/1512.00567&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://arxiv.org/abs/1512.00567&lt;/a&gt;  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
-    
-    
-      <category term="Inception" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/Inception/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>InceptionV1</title>
-    <link href="https://dreamercv.github.io/dreamercv.github.io/2019/05/17/InceptionV1/"/>
-    <id>https://dreamercv.github.io/dreamercv.github.io/2019/05/17/InceptionV1/</id>
-    <published>2019-05-17T12:34:25.000Z</published>
-    <updated>2019-05-17T13:03:50.841Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;论文：《Going Deeper with Convolutions, 6.67% test error  》&lt;/p&gt;
-&lt;p&gt;地址：&lt;a href=&quot;http://arxiv.org/abs/1409.4842&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://arxiv.org/abs/1409.4842&lt;/a&gt;  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-    
-    </summary>
-    
-      <category term="CNN" scheme="https://dreamercv.github.io/dreamercv.github.io/categories/CNN/"/>
-    
-    
-      <category term="Inception" scheme="https://dreamercv.github.io/dreamercv.github.io/tags/Inception/"/>
     
   </entry>
   
