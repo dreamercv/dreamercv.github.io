@@ -2,14 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/ResNext/</loc>
+    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/06/02/OpenCV/</loc>
+    
+    <lastmod>2019-06-02T10:34:39.701Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/06/02/%E7%A8%80%E7%BC%BA%E5%BF%83%E6%80%81/</loc>
+    
+    <lastmod>2019-06-02T10:32:21.785Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/06/02/%E6%9D%82%E8%B0%88/%E7%A8%80%E7%BC%BA%E5%BF%83%E6%80%81/</loc>
+    
+    <lastmod>2019-06-02T10:25:39.174Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/05/31/test/</loc>
+    
+    <lastmod>2019-06-02T01:20:40.485Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/CNN/ResNext/</loc>
     
     <lastmod>2019-05-30T14:42:06.409Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/DenseNet/</loc>
+    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/CNN/DenseNet/</loc>
     
     <lastmod>2019-05-30T14:38:01.816Z</lastmod>
     
@@ -58,7 +86,7 @@
   </url>
   
   <url>
-    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/03/17/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/03/17/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80%E4%B8%80/</loc>
     
     <lastmod>2019-05-30T14:16:10.785Z</lastmod>
     
@@ -82,13 +110,6 @@
     <loc>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/pytorch/%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C%E7%9A%84%E5%86%99%E6%B3%95/</loc>
     
     <lastmod>2019-05-30T13:55:08.041Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dreamercv.github.io/dreamercv.github.io/2019/05/30/CNN/ResNext/</loc>
-    
-    <lastmod>2019-05-30T12:18:27.422Z</lastmod>
     
   </url>
   
